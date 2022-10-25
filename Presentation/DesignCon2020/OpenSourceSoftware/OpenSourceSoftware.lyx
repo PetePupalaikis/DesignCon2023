@@ -1,0 +1,2164 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme[compress]{Berlin}
+%\usecolortheme{dove}
+\hypersetup{pdfpagemode=None,linkcolor=white}
+\usepackage{tikz}
+\usepackage{handoutWithNotes}
+
+\usetikzlibrary{shapes.multipart}
+\usetikzlibrary{decorations.pathreplacing}
+%\pgfpagesuselayout{1 on 1 with notes landscape}[letterpaper,border shrink=5mm] 
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols
+
+
+\usepackage{import}
+\usepackage{upgreek}
+\usepackage{bbold}
+\usepackage{alltt}
+\usepackage{bbm}
+
+\renewcommand{\partname}{Lecture}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch standalone
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Branch standalone
+inverted 0
+status collapsed
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This file is a solution template for:
+\end_layout
+
+\begin_layout Itemize
+Talk at a conference/colloquium.
+\end_layout
+
+\begin_layout Itemize
+Talk length is about 20min.
+\end_layout
+
+\begin_layout Itemize
+Style is ornate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+\end_layout
+
+\begin_layout Plain Layout
+In principle, this file can be redistributed and/or modified under the terms
+ of the GNU Public License, version 2.
+ However, this file is supposed to be a template to be modified for your
+ own needs.
+ For this reason, if you use this file as a template and not specifically
+ distribute it as part of a another package/program, the author grants the
+ extra permission to freely copy and modify this file as you see fit and
+ even to delete this copyright notice.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+\emph on
+SignalIntegrity
+\emph default
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+SignalIntegrity
+\emph default
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, use only with long paper titles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subtitle
+Open-Software
+\end_layout
+
+\begin_layout Author
+P.
+\begin_inset space ~
+\end_inset
+
+Pupalaikis
+\begin_inset Flex InstituteMark
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Give the names in the same order as the appear in the paper.
+\end_layout
+
+\begin_layout Itemize
+Use the 
+\begin_inset Quotes eld
+\end_inset
+
+Institute mark
+\begin_inset Quotes erd
+\end_inset
+
+ inset (
+\family sans
+Insert\SpecialChar menuseparator
+Custom Insets\SpecialChar menuseparator
+InstituteMark
+\family default
+) only if the authors have different affiliations.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Pupalaikis
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+- optional, use only with lots of authors
+\end_layout
+
+\begin_layout Plain Layout
+- if there are really lots of authors, use 
+\begin_inset Quotes eld
+\end_inset
+
+Author et al.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Institute
+\begin_inset Flex InstituteMark
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Teledyne LeCroy
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Use the 
+\begin_inset Quotes eld
+\end_inset
+
+Institute mark
+\begin_inset Quotes erd
+\end_inset
+
+ inset (
+\family sans
+Insert\SpecialChar menuseparator
+Custom Insets\SpecialChar menuseparator
+InstituteMark
+\family default
+) only if there are several affiliations.
+\end_layout
+
+\begin_layout Itemize
+Keep it simple, no one is interested in your street address.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../../Common/TeledyneLeCroyLogo.png
+	scale 10
+	rotateOrigin centerBaseline
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+optional, but mostly needed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout TitleGraphic
+\noindent
+\begin_inset Graphics
+	filename ../../Common/TeledyneLeCroyLogo.png
+	scale 50
+	rotateOrigin centerBaseline
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+DesignCon 2020
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Either use conference name or its abbreviation.
+\end_layout
+
+\begin_layout Itemize
+Not really informative to the audience, more for people (including yourself)
+ who are reading the slides online
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+DesignCon 2020
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, should be abbreviation of conference name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you have a file called "institution-logo-filename.xxx", where xxx is a
+ graphic format that can be processed by latex or pdflatex, resp., then you
+ can add a logo by uncommenting the following:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+pgfdeclareimage[height=0.25cm]{institution-logo}{TeledyneLeCroyLogo.png}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+logo{
+\backslash
+pgfuseimage{institution-logo}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following causes the table of contents to be shown at the beginning
+ of every subsection.
+ Delete this, if you do not want it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AtBeginSubsection[]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+frame<beamer>{ 
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+frametitle{Outline}   
+\end_layout
+
+\begin_layout Plain Layout
+
+    
+\backslash
+tableofcontents[currentsection,currentsubsection] 
+\end_layout
+
+\begin_layout Plain Layout
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+If you wish to uncover everything in a step-wise fashion, uncomment the
+ following command:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+beamerdefaultoverlayspecification{<+->}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Open-Source Software
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frame{
+\backslash
+partpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Open-source Software in General
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Open-source Software
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+Open-source software mostly started in the 90’s.
+ Probably a reaction to Microsoft’s dominance back then.
+ Linux was released in 1991.
+ Today lots of people contribute to open-source software.
+ The reasons are:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\size small
+Allows people to establish expertise by making something that is useful,
+ can be read, understood, modified and contributed to, and can displace
+ dominant closed-source applications.
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+Is sometimes a by-product of other work.
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+In research: allows true duplication of experiments.
+\end_layout
+
+\begin_layout Standard
+Some examples that are applicable to signal integrity:
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -1.5em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Qucs
+\end_layout
+
+\begin_layout Itemize
+SPICE
+\end_layout
+
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -1.5em
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+PyBert and PyIBIS-AMI
+\end_layout
+
+\begin_layout Itemize
+Elmer FEM Solver
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\color blue
+SignalIntegrity
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+S-Parameters for Signal Integrity Textbook
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+Approximately ten years of development.
+ Published in Feb.
+ 2020.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename SignalIntegrityBookCambridge.png
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+A Disappointing Fact\SpecialChar ldots
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Columns
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+During the writing of this book, it became apparent that while all of the
+ math and explanations were interesting, aside from a handful of people,
+ no one would actually use the book!
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+Thus, the idea for 
+\emph on
+SignalIntegrity
+\emph default
+ was born.
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Page 132
+\end_layout
+
+\end_inset
+
+
+\size footnotesize
+The page on the right is multiple solution methods of two cascaded two-port
+ networks.
+\end_layout
+
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shadowbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename BookPageConfusingMath.png
+	height 80theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\emph on
+SignalIntegrity
+\end_layout
+
+\begin_layout FragileFrame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Symbolic Solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+Originally 
+\emph on
+SignalIntegrity
+\emph default
+ was only scripted and only symbolic.
+\end_layout
+
+\begin_layout ColumnsCenterAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 0
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset include
+LatexCommand input
+preview true
+filename "SymbolicSolutionExample3.TpX"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "1.5in"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+device L 2
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+device R 2
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+device M 2
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+device G 1 ground
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+port 1 L 1 2 R 2
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+connect L 2 R 1 M 1
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\family typewriter
+\size tiny
+connect G 1 M 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset listings
+lstparams "language=Python,numbers=left,basicstyle={\tiny\ttfamily},tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+import SignalIntegrity.Lib as si
+\end_layout
+
+\begin_layout Plain Layout
+
+sdp = si.p.SystemDescriptionParser().File('SymbolicSolution3.txt')
+\end_layout
+
+\begin_layout Plain Layout
+
+ssps=si.sd.SystemSParametersSymbolic(sdp.SystemDescription(),size='small')
+\end_layout
+
+\begin_layout Plain Layout
+
+ssps.LaTeXSolution().Emit()
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset VSpace -1em
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tiny
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\mathbf{S}=\left(\begin{smallmatrix}L_{11} & 0\\
+0 & R_{22}
+\end{smallmatrix}\right)+\left(\begin{smallmatrix}0 & 0 & 0 & 0 & 0 & 0 & L_{12} & 0\\
+0 & 0 & 0 & 0 & 0 & R_{21} & 0 & 0
+\end{smallmatrix}\right)\cdot\left[\boldsymbol{\mathbbm{I}}-\left(\begin{smallmatrix}0 & 0 & 0 & 0 & 0 & 0 & L_{22} & 0\\
+0 & 0 & 0 & 0 & 0 & R_{11} & 0 & 0\\
+0 & 0 & 0 & 0 & M_{12} & 0 & 0 & M_{11}\\
+0 & 0 & 0 & 0 & M_{22} & 0 & 0 & M_{21}\\
+0 & 0 & 0 & -1 & 0 & 0 & 0 & 0\\
+\frac{2}{3} & -\frac{1}{3} & \frac{2}{3} & 0 & 0 & 0 & 0 & 0\\
+-\frac{1}{3} & \frac{2}{3} & \frac{2}{3} & 0 & 0 & 0 & 0 & 0\\
+\frac{2}{3} & \frac{2}{3} & -\frac{1}{3} & 0 & 0 & 0 & 0 & 0
+\end{smallmatrix}\right)\right]^{-1}\cdot\left(\begin{smallmatrix}L_{21} & 0\\
+0 & R_{12}\\
+0 & 0\\
+0 & 0\\
+0 & 0\\
+0 & 0\\
+0 & 0\\
+0 & 0
+\end{smallmatrix}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+SignalIntegrity.Lib Package
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+...
+ It's kind of like a Matlab library – but it's object oriented.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Library.png
+	width 95text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename objectHeirarchy.png
+	width 50text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename WaveformProcessorHeirarchy.png
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+SignalIntegrity
+\emph default
+ is\SpecialChar ldots
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Columns
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Open-source software that provides for both scripted and GUI-based solutions
+ to four major signal integrity problems:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+S-parameters of systems;
+\end_layout
+
+\begin_layout Itemize
+De-embedding;
+\end_layout
+
+\begin_layout Itemize
+Virtual probing;
+\end_layout
+
+\begin_layout Itemize
+Linear simulation;
+\end_layout
+
+\begin_layout Itemize
+Network analyzer calibration.
+\end_layout
+
+\end_deeper
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Screenshot.png
+	lyxscale 25
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Columns
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+Additionally, it can be used to view s-parameter files in both the time-
+ and frequency-domain, view and fix physicality violations, resampling,
+ and for transmission line model fitting.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+It is officially released in the Python Packaging Index
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+\SpecialChar ldots
+and it runs under Python 2.x and 3.x on Linux or Windows
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename SignalIntegrityPyPI.png
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\size small
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\size default
+https://www.pypi.org/project/SignalIntegrity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Unittest
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+The standard test framework for Python
+\end_layout
+
+\begin_layout Columns
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+0.50
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "1pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "lightgray"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename unittest2.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Column
+0.5
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+\emph on
+SignalIntegrity
+\emph default
+ contains over 1000 unit tests.
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+The tests take about 10 minutes to run.
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+The tests are a mixture of regression and absolute tests.
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+They test the validity of the WavePulser 40iX algorithms!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Coverage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+The standard Python test coverage framework
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename unittesthtml.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+There are 16,340 lines of code in 
+\emph on
+SignalIntegrity
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+There are 6,462 lines of code in the library (surprisingly small).
+\end_layout
+
+\begin_layout Itemize
+There are 9,878 lines of code in the GUI application.
+\end_layout
+
+\begin_layout Itemize
+6,214 lines of code are covered (96% coverage).
+\end_layout
+
+\begin_layout Itemize
+Lines not covered (no excuse) are exception handling.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+SignalIntegrity
+\emph default
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+free
+\begin_inset Quotes erd
+\end_inset
+
+ software
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\size small
+Copyright (c) 2018 Teledyne LeCroy, Inc.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+All rights reserved worldwide.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+\emph on
+SignalIntegrity
+\emph default
+ is free software: You can redistribute it and/or modify it under the terms
+ of the GNU General Public License as published by the Free Software Foundation,
+ either version 3 of the License, or any later version.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.
+ See the GNU General Public License for more details.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+You should have received a copy of the GNU General Public License along
+ with this program.
+ If not, see <
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.gnu.org/licenses/
+\end_layout
+
+\end_inset
+
+>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What does the GPL license mean?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\noindent
+You have access to the source code.
+\end_layout
+
+\begin_layout Itemize
+You can use the software for whatever you want.
+\end_layout
+
+\begin_layout Itemize
+You can freely modify the software.
+\end_layout
+
+\begin_layout Itemize
+There are no guarantees that it works.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+However\SpecialChar ldots
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The software is copyright Teledyne LeCroy, Inc.
+\end_layout
+
+\begin_layout Itemize
+Any derivatives of the software that are distributed must adhere to the
+ GPL license.
+\end_layout
+
+\begin_layout Itemize
+Any distributed derivatives must maintain the copyright.
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+This kind of license is called a 
+\emph on
+copy-left
+\emph default
+ license, meaning it is constructed to maintain the free-ness.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Download Statistics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Columns
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+0.4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SignalIntegrity is downloaded:
+\end_layout
+
+\begin_layout Itemize
+3-4 times per day.
+\end_layout
+
+\begin_layout Itemize
+90-120 times per month.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+SignalIntegrity
+\emph default
+ has been downloaded about 2000 times since it's launch.
+\end_layout
+
+\begin_layout Column
+0.6
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textwidth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename PyPIStats.png
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+SignalIntegrity
+\emph default
+ Summary
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It is free software under the GPLv3 license.
+\end_layout
+
+\begin_layout Itemize
+It can be used as a Python library for scripted solutions and has a GUI.
+\end_layout
+
+\begin_layout Itemize
+It can solve problems numerically and symbolically.
+\end_layout
+
+\begin_layout Itemize
+It is inextricably linked with the book, 
+\begin_inset Quotes eld
+\end_inset
+
+S-Parameters for Signal Integrity
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The book describes how the software works.
+\end_layout
+
+\begin_layout Itemize
+The software is listed and provides several examples in the book.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch standalone
+inverted 0
+status open
+
+\begin_layout Section*
+\start_of_appendix
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+All of the following is optional and typically not needed.
+\end_layout
+
+\end_inset
+
+Appendix
+\end_layout
+
+\begin_layout Subsection*
+For Further Reading
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+allowframebreaks
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+For Further Reading
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamertemplatebookbibitems
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Start with overview books.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Author1990"
+literal "true"
+
+\end_inset
+
+A.
+ Author.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+
+\emph on
+Handbook of Everything
+\emph default
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ Some Press, 1990.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+beamertemplatearticlebibitems
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Followed by interesting articles.
+ Keep the list short.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Someone2002-1"
+literal "true"
+
+\end_inset
+
+S.
+ Someone.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ On this and that
+\emph on
+.
+
+\emph default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+
+\emph on
+Journal on This and That
+\emph default
+.
+ 2(1):50–100, 2000.
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

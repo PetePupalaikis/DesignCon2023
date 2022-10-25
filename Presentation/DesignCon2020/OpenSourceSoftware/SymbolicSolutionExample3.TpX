@@ -1,0 +1,56 @@
+%<TpX v="5" TeXFormat="tikz" PdfTeXFormat="tikz" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="2" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigure="none">
+%  <rect x="2" y="42" w="5" h="4.99999"/>
+%  <text x="4.5" y="44" t="L" tex="$\mathbf{L}$" h="1.5" halign="c"/>
+%  <rect x="-0.5" y="29.5" w="25" h="18.5" li="dot"/>
+%  <line x1="-3" y1="44.5" x2="2" y2="44.5"/>
+%  <line x1="7" y1="44.5" x2="17" y2="44.5"/>
+%  <text x="-1" y="45" t="1" h="1.5" halign="r"/>
+%  <text x="1.5" y="45" t="1" h="1.5" halign="r"/>
+%  <text x="7.5" y="45" t="2" h="1.5"/>
+%  <rect x="17" y="42" w="5" h="4.99999"/>
+%  <text x="19.5" y="44" t="R" tex="$\mathbf{R}$" h="1.5" halign="c"/>
+%  <line x1="22" y1="44.5" x2="27" y2="44.5"/>
+%  <text x="16.5" y="45" t="1" h="1.5" halign="r"/>
+%  <text x="22.5" y="45" t="2" h="1.5"/>
+%  <text x="25" y="45" t="2" h="1.5"/>
+%  <rect x="9.5" y="37" w="5" h="4.99999"/>
+%  <text x="12" y="39" t="M" tex="$\mathbf{M}$" h="1.5" halign="c"/>
+%  <line x1="12" y1="44.5" x2="12" y2="42"/>
+%  <text x="12.25" y="42.5" t="1" h="1.5"/>
+%  <line x1="12" y1="37" x2="12" y2="34.5"/>
+%  <text x="12.25" y="35.25" t="2" h="1.5"/>
+%  <polygon>10.25,32 13.75,32 12,30.5</polygon>
+%  <line x1="12" y1="34.5" x2="12" y2="32"/>
+%  <text x="12.25" y="32.5" t="1" h="1.5"/>
+%  <circle x="12" y="44.5" d="0.5" li="none" fill="black"/>
+%</TpX>
+\centering
+\begin{tikzpicture}[x=1.00mm, y=1.00mm, inner xsep=0pt, inner ysep=0pt, outer xsep=0pt, outer ysep=0pt]
+\path[line width=0mm] (-5.00,27.50) rectangle +(34.00,22.50);
+\definecolor{L}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L] (2.00,42.00) rectangle +(5.00,5.00);
+\draw(4.50,44.00) node[anchor=base]{\fontsize{4.27}{5.12}\selectfont $\mathbf{L}$};
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (-0.50,29.50) rectangle +(25.00,18.50);
+\path[line width=0.30mm, draw=L] (-3.00,44.50) -- (2.00,44.50);
+\path[line width=0.30mm, draw=L] (7.00,44.50) -- (17.00,44.50);
+\draw(-1.00,45.00) node[anchor=base east]{\fontsize{4.27}{5.12}\selectfont 1};
+\draw(1.50,45.00) node[anchor=base east]{\fontsize{4.27}{5.12}\selectfont 1};
+\draw(7.50,45.00) node[anchor=base west]{\fontsize{4.27}{5.12}\selectfont 2};
+\path[line width=0.30mm, draw=L] (17.00,42.00) rectangle +(5.00,5.00);
+\draw(19.50,44.00) node[anchor=base]{\fontsize{4.27}{5.12}\selectfont $\mathbf{R}$};
+\path[line width=0.30mm, draw=L] (22.00,44.50) -- (27.00,44.50);
+\draw(16.50,45.00) node[anchor=base east]{\fontsize{4.27}{5.12}\selectfont 1};
+\draw(22.50,45.00) node[anchor=base west]{\fontsize{4.27}{5.12}\selectfont 2};
+\draw(25.00,45.00) node[anchor=base west]{\fontsize{4.27}{5.12}\selectfont 2};
+\path[line width=0.30mm, draw=L] (9.50,37.00) rectangle +(5.00,5.00);
+\draw(12.00,39.00) node[anchor=base]{\fontsize{4.27}{5.12}\selectfont $\mathbf{M}$};
+\path[line width=0.30mm, draw=L] (12.00,44.50) -- (12.00,42.00);
+\draw(12.25,42.50) node[anchor=base west]{\fontsize{4.27}{5.12}\selectfont 1};
+\path[line width=0.30mm, draw=L] (12.00,37.00) -- (12.00,34.50);
+\draw(12.25,35.25) node[anchor=base west]{\fontsize{4.27}{5.12}\selectfont 2};
+\path[line width=0.30mm, draw=L] (10.25,32.00) -- (13.75,32.00) -- (12.00,30.50) -- cycle;
+\path[line width=0.30mm, draw=L] (12.00,34.50) -- (12.00,32.00);
+\draw(12.25,32.50) node[anchor=base west]{\fontsize{4.27}{5.12}\selectfont 1};
+\definecolor{F}{rgb}{0,0,0}
+\path[fill=F] (12.00,44.50) circle (0.25mm);
+\end{tikzpicture}%

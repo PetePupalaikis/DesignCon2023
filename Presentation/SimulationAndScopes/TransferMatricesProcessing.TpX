@@ -1,0 +1,252 @@
+%<TpX v="5" TeXFormat="tikz" PdfTeXFormat="tikz" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigure="none" FontSizeInTeX="0">
+%  <polyline arr1="h44" arrs="0.5" lc="black">146,-72 140,-72</polyline>
+%  <polyline arr1="h44" arrs="0.5" lc="black">174,-72 168,-72</polyline>
+%  <polyline arr1="h44" arrs="0.5" lc="black">210,-72 204,-72</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">186.5,-80 192,-80 192,-72 196,-72</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">156,-80 156,-72 160,-72</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">128,-72 132,-72</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">128,-92 132,-92</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">156,-100 156,-92 160,-92</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">186.5,-100 192,-100 192,-92 196,-92</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">186.5,-64 192,-64 192,-56 196,-56</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">156,-64 156,-56 160,-56</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">128,-56 132,-56</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">148,-82 148,-74</polyline>
+%  <polyline arr1="h44" arrs="0.5" lc="black">146,-56 140,-56</polyline>
+%  <rect x="132" y="-60" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="132" y="-76" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="132" y="-96" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="160" y="-60" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="160" y="-76" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="160" y="-96" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="196" y="-60" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="196" y="-76" w="8" h="8" lc="black" fill="white"/>
+%  <rect x="196" y="-96" w="8" h="8" lc="black" fill="white"/>
+%  <polyline lc="black">140,-92 148,-92 148,-86</polyline>
+%  <polyline lc="black">120,-56 128,-56</polyline>
+%  <polyline lc="black">128,-56 128,-64 156,-64</polyline>
+%  <polyline lc="black">156,-64 181.5,-64</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">148,-70 148,-58</polyline>
+%  <polyline lc="black">148,-46 148,-26 182,-26</polyline>
+%  <polyline lc="black">148,-54 148,-50</polyline>
+%  <ellipse x="156" y="-64" dx="1" dy="1" lc="black" fill="black"/>
+%  <ellipse x="128" y="-56" dx="1" dy="1" lc="black" fill="black"/>
+%  <text x="136" y="-56.5" t="hoi" tex="$\underset{1\leftarrow 1}{\mathbf{h}}$" h="5" halign="c"/>
+%  <ellipse x="148" y="-72" dx="4.00006" dy="4.00002" lc="black" fill="white"/>
+%  <polyline lc="black">147.25,-72 148.75,-72</polyline>
+%  <polyline lc="black">148,-71.25 148,-72.75</polyline>
+%  <ellipse x="148" y="-56" dx="4.00006" dy="4.00001" lc="black" fill="white"/>
+%  <polyline lc="black">147.25,-56 148.75,-56</polyline>
+%  <polyline lc="black">148,-55.25 148,-56.75</polyline>
+%  <text x="119" y="-57" t="vi1" tex="$\mathbf{vi}_1$" h="5" halign="r" fill="white"/>
+%  <text x="119" y="-73" t="vi2" tex="$\mathbf{vi}_2$" h="5" halign="r" fill="white"/>
+%  <text x="119" y="-93" t="viI" tex="$\mathbf{vi}_I$" h="5" halign="r" fill="white"/>
+%  <line x1="148" y1="-82" x2="148" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="136" y1="-82" x2="136" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="116" y1="-82" x2="116" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="164" y1="-82" x2="164" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="200" y1="-82" x2="200" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <polyline arr2="h44" arrs="0.5" lc="black">176,-82 176,-74</polyline>
+%  <polyline arr1="h44" arrs="0.5" lc="black">174,-56 168,-56</polyline>
+%  <polyline lc="black">168,-92 176,-92 176,-86</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">176,-70 176,-58</polyline>
+%  <polyline lc="black">176,-46 176,-40 182,-40</polyline>
+%  <polyline lc="black">176,-54 176,-50</polyline>
+%  <ellipse x="176" y="-72" dx="4.00006" dy="4.00002" lc="black" fill="white"/>
+%  <polyline lc="black">175.25,-72 176.75,-72</polyline>
+%  <polyline lc="black">176,-71.25 176,-72.75</polyline>
+%  <ellipse x="176" y="-56" dx="4.00006" dy="4.00001" lc="black" fill="white"/>
+%  <polyline lc="black">175.25,-56 176.75,-56</polyline>
+%  <polyline lc="black">176,-55.25 176,-56.75</polyline>
+%  <line x1="176" y1="-82" x2="176" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <polyline arr2="h44" arrs="0.5" lc="black">212,-86 212,-74</polyline>
+%  <polyline arr1="h44" arrs="0.5" lc="black">210,-56 204,-56</polyline>
+%  <polyline lc="black">204,-92 212,-92 212,-86</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">212,-70 212,-58</polyline>
+%  <ellipse x="212" y="-72" dx="4.00006" dy="4.00002" lc="black" fill="white"/>
+%  <polyline lc="black">211.25,-72 212.75,-72</polyline>
+%  <polyline lc="black">212,-71.25 212,-72.75</polyline>
+%  <ellipse x="212" y="-56" dx="4.00006" dy="4.00001" lc="black" fill="white"/>
+%  <polyline lc="black">211.25,-56 212.75,-56</polyline>
+%  <polyline lc="black">212,-55.25 212,-56.75</polyline>
+%  <line x1="212" y1="-82" x2="212" y2="-86" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="182" y1="-64" x2="186" y2="-64" arrs="0.5" li="dot" fill="white"/>
+%  <polyline lc="black">120,-72 128,-72</polyline>
+%  <ellipse x="128" y="-72" dx="1" dy="1" lc="black" fill="black"/>
+%  <polyline lc="black">128,-72 128,-80 156,-80</polyline>
+%  <ellipse x="156" y="-80" dx="1" dy="1" lc="black" fill="black"/>
+%  <polyline lc="black">156,-80 181.5,-80</polyline>
+%  <line x1="182" y1="-80" x2="186" y2="-80" arrs="0.5" li="dot" fill="white"/>
+%  <polyline lc="black">120,-92 128,-92</polyline>
+%  <ellipse x="128" y="-92" dx="1" dy="1" lc="black" fill="black"/>
+%  <polyline lc="black">128,-92 128,-100 156,-100</polyline>
+%  <ellipse x="156" y="-100" dx="1" dy="1" lc="black" fill="black"/>
+%  <polyline lc="black">156,-100 181.5,-100</polyline>
+%  <line x1="182" y1="-100" x2="186" y2="-100" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="182" y1="-72" x2="186" y2="-72" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="182" y1="-56" x2="186" y2="-56" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="182" y1="-92" x2="186" y2="-92" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="182" y1="-40" x2="186" y2="-40" arrs="0.5" li="dot" fill="white"/>
+%  <polyline arr2="h44" arrs="0.5" lc="black">186,-26 222,-26</polyline>
+%  <text x="225" y="-27" t="vo1" tex="$\mathbf{vo}_1$" h="5" fill="white"/>
+%  <text x="225" y="-41" t="vo2" tex="$\mathbf{vo}_2$" h="5" fill="white"/>
+%  <text x="225" y="-57" t="voO" tex="$\mathbf{vo}_O$" h="5" fill="white"/>
+%  <line x1="227" y1="-46" x2="227" y2="-50" arrs="0.5" li="dot" fill="white"/>
+%  <polyline arr2="h44" arrs="0.5" lc="black">186,-40 222,-40</polyline>
+%  <polyline arr2="h44" arrs="0.5" lc="black">214,-56 222,-56</polyline>
+%  <line x1="182" y1="-26" x2="186" y2="-26" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="176" y1="-46" x2="176" y2="-50" arrs="0.5" li="dot" fill="white"/>
+%  <line x1="148" y1="-46" x2="148" y2="-50" arrs="0.5" li="dot" fill="white"/>
+%  <text x="164" y="-56.5" t="hoi" tex="$\underset{2\leftarrow 1}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="200" y="-56.5" t="hoi" tex="$\underset{O\leftarrow 1}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="136" y="-72.5" t="hoi" tex="$\underset{1\leftarrow 2}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="164" y="-72.5" t="hoi" tex="$\underset{2\leftarrow 2}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="200" y="-72.5" t="hoi" tex="$\underset{O\leftarrow 2}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="136" y="-92.5" t="hoi" tex="$\underset{1\leftarrow I}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="164" y="-92.5" t="hoi" tex="$\underset{2\leftarrow I}{\mathbf{h}}$" h="5" halign="c"/>
+%  <text x="200" y="-92.5" t="hoi" tex="$\underset{O\leftarrow I}{\mathbf{h}}$" h="5" halign="c"/>
+%</TpX>
+\centering
+\begin{tikzpicture}[scale=0.85,x=1.00mm, y=1.00mm, inner xsep=0pt, inner ysep=0pt, outer xsep=0pt, outer ysep=0pt]
+\path[line width=0mm] (110.61,-102.50) rectangle +(125.00,81.42);
+\definecolor{L}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L] (146.00,-72.00) -- (140.00,-72.00);
+\definecolor{F}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L, fill=F] (146.00,-72.00) -- (144.60,-71.65) -- (144.60,-72.35) -- (146.00,-72.00) -- cycle;
+\path[line width=0.30mm, draw=L] (174.00,-72.00) -- (168.00,-72.00);
+\path[line width=0.30mm, draw=L, fill=F] (174.00,-72.00) -- (172.60,-71.65) -- (172.60,-72.35) -- (174.00,-72.00) -- cycle;
+\path[line width=0.30mm, draw=L] (210.00,-72.00) -- (204.00,-72.00);
+\path[line width=0.30mm, draw=L, fill=F] (210.00,-72.00) -- (208.60,-71.65) -- (208.60,-72.35) -- (210.00,-72.00) -- cycle;
+\path[line width=0.30mm, draw=L] (186.50,-80.00) -- (192.00,-80.00) -- (192.00,-72.00) -- (196.00,-72.00);
+\path[line width=0.30mm, draw=L, fill=F] (196.00,-72.00) -- (194.60,-71.65) -- (194.60,-72.35) -- (196.00,-72.00) -- cycle;
+\path[line width=0.30mm, draw=L] (156.00,-80.00) -- (156.00,-72.00) -- (160.00,-72.00);
+\path[line width=0.30mm, draw=L, fill=F] (160.00,-72.00) -- (158.60,-71.65) -- (158.60,-72.35) -- (160.00,-72.00) -- cycle;
+\path[line width=0.30mm, draw=L] (128.00,-72.00) -- (132.00,-72.00);
+\path[line width=0.30mm, draw=L, fill=F] (132.00,-72.00) -- (130.60,-71.65) -- (130.60,-72.35) -- (132.00,-72.00) -- cycle;
+\path[line width=0.30mm, draw=L] (128.00,-92.00) -- (132.00,-92.00);
+\path[line width=0.30mm, draw=L, fill=F] (132.00,-92.00) -- (130.60,-91.65) -- (130.60,-92.35) -- (132.00,-92.00) -- cycle;
+\path[line width=0.30mm, draw=L] (156.00,-100.00) -- (156.00,-92.00) -- (160.00,-92.00);
+\path[line width=0.30mm, draw=L, fill=F] (160.00,-92.00) -- (158.60,-91.65) -- (158.60,-92.35) -- (160.00,-92.00) -- cycle;
+\path[line width=0.30mm, draw=L] (186.50,-100.00) -- (192.00,-100.00) -- (192.00,-92.00) -- (196.00,-92.00);
+\path[line width=0.30mm, draw=L, fill=F] (196.00,-92.00) -- (194.60,-91.65) -- (194.60,-92.35) -- (196.00,-92.00) -- cycle;
+\path[line width=0.30mm, draw=L] (186.50,-64.00) -- (192.00,-64.00) -- (192.00,-56.00) -- (196.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (196.00,-56.00) -- (194.60,-55.65) -- (194.60,-56.35) -- (196.00,-56.00) -- cycle;
+\path[line width=0.30mm, draw=L] (156.00,-64.00) -- (156.00,-56.00) -- (160.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (160.00,-56.00) -- (158.60,-55.65) -- (158.60,-56.35) -- (160.00,-56.00) -- cycle;
+\path[line width=0.30mm, draw=L] (128.00,-56.00) -- (132.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (132.00,-56.00) -- (130.60,-55.65) -- (130.60,-56.35) -- (132.00,-56.00) -- cycle;
+\path[line width=0.30mm, draw=L] (148.00,-82.00) -- (148.00,-74.00);
+\path[line width=0.30mm, draw=L, fill=F] (148.00,-74.00) -- (147.65,-75.40) -- (148.35,-75.40) -- (148.00,-74.00) -- cycle;
+\path[line width=0.30mm, draw=L] (146.00,-56.00) -- (140.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (146.00,-56.00) -- (144.60,-55.65) -- (144.60,-56.35) -- (146.00,-56.00) -- cycle;
+\definecolor{F}{rgb}{1,1,1}
+\path[line width=0.30mm, draw=L, fill=F] (132.00,-60.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (132.00,-76.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (132.00,-96.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (160.00,-60.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (160.00,-76.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (160.00,-96.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (196.00,-60.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (196.00,-76.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L, fill=F] (196.00,-96.00) rectangle +(8.00,8.00);
+\path[line width=0.30mm, draw=L] (140.00,-92.00) -- (148.00,-92.00) -- (148.00,-86.00);
+\path[line width=0.30mm, draw=L] (120.00,-56.00) -- (128.00,-56.00);
+\path[line width=0.30mm, draw=L] (128.00,-56.00) -- (128.00,-64.00) -- (156.00,-64.00);
+\path[line width=0.30mm, draw=L] (156.00,-64.00) -- (181.50,-64.00);
+\path[line width=0.30mm, draw=L] (148.00,-70.00) -- (148.00,-58.00);
+\definecolor{F}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L, fill=F] (148.00,-58.00) -- (147.65,-59.40) -- (148.35,-59.40) -- (148.00,-58.00) -- cycle;
+\path[line width=0.30mm, draw=L] (148.00,-46.00) -- (148.00,-26.00) -- (182.00,-26.00);
+\path[line width=0.30mm, draw=L] (148.00,-54.00) -- (148.00,-50.00);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-64.00) ellipse (0.50mm and 0.50mm);
+\path[line width=0.30mm, draw=L, fill=F] (128.00,-56.00) ellipse (0.50mm and 0.50mm);
+\draw(136.00,-56.50) node[anchor=base]{$\underset{1\leftarrow 1}{\mathbf{h}}$};
+\definecolor{F}{rgb}{1,1,1}
+\path[line width=0.30mm, draw=L, fill=F] (148.00,-72.00) ellipse (2.00mm and 2.00mm);
+\path[line width=0.30mm, draw=L] (147.25,-72.00) -- (148.75,-72.00);
+\path[line width=0.30mm, draw=L] (148.00,-71.25) -- (148.00,-72.75);
+\path[line width=0.30mm, draw=L, fill=F] (148.00,-56.00) ellipse (2.00mm and 2.00mm);
+\path[line width=0.30mm, draw=L] (147.25,-56.00) -- (148.75,-56.00);
+\path[line width=0.30mm, draw=L] (148.00,-55.25) -- (148.00,-56.75);
+\draw(119.00,-57.00) node[anchor=base east]{$\mathbf{vi}_1$};
+\draw(119.00,-73.00) node[anchor=base east]{$\mathbf{vi}_2$};
+\draw(119.00,-93.00) node[anchor=base east]{$\mathbf{vi}_I$};
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (148.00,-82.00) -- (148.00,-86.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (136.00,-82.00) -- (136.00,-86.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (116.00,-82.00) -- (116.00,-86.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (164.00,-82.00) -- (164.00,-86.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (200.00,-82.00) -- (200.00,-86.00);
+\path[line width=0.30mm, draw=L] (176.00,-82.00) -- (176.00,-74.00);
+\definecolor{F}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L, fill=F] (176.00,-74.00) -- (175.65,-75.40) -- (176.35,-75.40) -- (176.00,-74.00) -- cycle;
+\path[line width=0.30mm, draw=L] (174.00,-56.00) -- (168.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (174.00,-56.00) -- (172.60,-55.65) -- (172.60,-56.35) -- (174.00,-56.00) -- cycle;
+\path[line width=0.30mm, draw=L] (168.00,-92.00) -- (176.00,-92.00) -- (176.00,-86.00);
+\path[line width=0.30mm, draw=L] (176.00,-70.00) -- (176.00,-58.00);
+\path[line width=0.30mm, draw=L, fill=F] (176.00,-58.00) -- (175.65,-59.40) -- (176.35,-59.40) -- (176.00,-58.00) -- cycle;
+\path[line width=0.30mm, draw=L] (176.00,-46.00) -- (176.00,-40.00) -- (182.00,-40.00);
+\path[line width=0.30mm, draw=L] (176.00,-54.00) -- (176.00,-50.00);
+\definecolor{F}{rgb}{1,1,1}
+\path[line width=0.30mm, draw=L, fill=F] (176.00,-72.00) ellipse (2.00mm and 2.00mm);
+\path[line width=0.30mm, draw=L] (175.25,-72.00) -- (176.75,-72.00);
+\path[line width=0.30mm, draw=L] (176.00,-71.25) -- (176.00,-72.75);
+\path[line width=0.30mm, draw=L, fill=F] (176.00,-56.00) ellipse (2.00mm and 2.00mm);
+\path[line width=0.30mm, draw=L] (175.25,-56.00) -- (176.75,-56.00);
+\path[line width=0.30mm, draw=L] (176.00,-55.25) -- (176.00,-56.75);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (176.00,-82.00) -- (176.00,-86.00);
+\path[line width=0.30mm, draw=L] (212.00,-86.00) -- (212.00,-74.00);
+\definecolor{F}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L, fill=F] (212.00,-74.00) -- (211.65,-75.40) -- (212.35,-75.40) -- (212.00,-74.00) -- cycle;
+\path[line width=0.30mm, draw=L] (210.00,-56.00) -- (204.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (210.00,-56.00) -- (208.60,-55.65) -- (208.60,-56.35) -- (210.00,-56.00) -- cycle;
+\path[line width=0.30mm, draw=L] (204.00,-92.00) -- (212.00,-92.00) -- (212.00,-86.00);
+\path[line width=0.30mm, draw=L] (212.00,-70.00) -- (212.00,-58.00);
+\path[line width=0.30mm, draw=L, fill=F] (212.00,-58.00) -- (211.65,-59.40) -- (212.35,-59.40) -- (212.00,-58.00) -- cycle;
+\definecolor{F}{rgb}{1,1,1}
+\path[line width=0.30mm, draw=L, fill=F] (212.00,-72.00) ellipse (2.00mm and 2.00mm);
+\path[line width=0.30mm, draw=L] (211.25,-72.00) -- (212.75,-72.00);
+\path[line width=0.30mm, draw=L] (212.00,-71.25) -- (212.00,-72.75);
+\path[line width=0.30mm, draw=L, fill=F] (212.00,-56.00) ellipse (2.00mm and 2.00mm);
+\path[line width=0.30mm, draw=L] (211.25,-56.00) -- (212.75,-56.00);
+\path[line width=0.30mm, draw=L] (212.00,-55.25) -- (212.00,-56.75);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (212.00,-82.00) -- (212.00,-86.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-64.00) -- (186.00,-64.00);
+\path[line width=0.30mm, draw=L] (120.00,-72.00) -- (128.00,-72.00);
+\definecolor{F}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L, fill=F] (128.00,-72.00) ellipse (0.50mm and 0.50mm);
+\path[line width=0.30mm, draw=L] (128.00,-72.00) -- (128.00,-80.00) -- (156.00,-80.00);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-80.00) ellipse (0.50mm and 0.50mm);
+\path[line width=0.30mm, draw=L] (156.00,-80.00) -- (181.50,-80.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-80.00) -- (186.00,-80.00);
+\path[line width=0.30mm, draw=L] (120.00,-92.00) -- (128.00,-92.00);
+\path[line width=0.30mm, draw=L, fill=F] (128.00,-92.00) ellipse (0.50mm and 0.50mm);
+\path[line width=0.30mm, draw=L] (128.00,-92.00) -- (128.00,-100.00) -- (156.00,-100.00);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-100.00) ellipse (0.50mm and 0.50mm);
+\path[line width=0.30mm, draw=L] (156.00,-100.00) -- (181.50,-100.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-100.00) -- (186.00,-100.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-72.00) -- (186.00,-72.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-56.00) -- (186.00,-56.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-92.00) -- (186.00,-92.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-40.00) -- (186.00,-40.00);
+\path[line width=0.30mm, draw=L] (186.00,-26.00) -- (222.00,-26.00);
+\path[line width=0.30mm, draw=L, fill=F] (222.00,-26.00) -- (220.60,-25.65) -- (220.60,-26.35) -- (222.00,-26.00) -- cycle;
+\draw(225.00,-27.00) node[anchor=base west]{$\mathbf{vo}_1$};
+\draw(225.00,-41.00) node[anchor=base west]{$\mathbf{vo}_2$};
+\draw(225.00,-57.00) node[anchor=base west]{$\mathbf{vo}_O$};
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (227.00,-46.00) -- (227.00,-50.00);
+\path[line width=0.30mm, draw=L] (186.00,-40.00) -- (222.00,-40.00);
+\path[line width=0.30mm, draw=L, fill=F] (222.00,-40.00) -- (220.60,-39.65) -- (220.60,-40.35) -- (222.00,-40.00) -- cycle;
+\path[line width=0.30mm, draw=L] (214.00,-56.00) -- (222.00,-56.00);
+\path[line width=0.30mm, draw=L, fill=F] (222.00,-56.00) -- (220.60,-55.65) -- (220.60,-56.35) -- (222.00,-56.00) -- cycle;
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (182.00,-26.00) -- (186.00,-26.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (176.00,-46.00) -- (176.00,-50.00);
+\path[line width=0.30mm, draw=L, dash pattern=on 0.30mm off 0.50mm] (148.00,-46.00) -- (148.00,-50.00);
+\draw(164.00,-56.50) node[anchor=base]{$\underset{2\leftarrow 1}{\mathbf{h}}$};
+\draw(200.00,-56.50) node[anchor=base]{$\underset{O\leftarrow 1}{\mathbf{h}}$};
+\draw(136.00,-72.50) node[anchor=base]{$\underset{1\leftarrow 2}{\mathbf{h}}$};
+\draw(164.00,-72.50) node[anchor=base]{$\underset{2\leftarrow 2}{\mathbf{h}}$};
+\draw(200.00,-72.50) node[anchor=base]{$\underset{O\leftarrow 2}{\mathbf{h}}$};
+\draw(136.00,-92.50) node[anchor=base]{$\underset{1\leftarrow I}{\mathbf{h}}$};
+\draw(164.00,-92.50) node[anchor=base]{$\underset{2\leftarrow I}{\mathbf{h}}$};
+\draw(200.00,-92.50) node[anchor=base]{$\underset{O\leftarrow I}{\mathbf{h}}$};
+\end{tikzpicture}%
