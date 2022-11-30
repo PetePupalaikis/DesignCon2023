@@ -518,7 +518,7 @@ have dominated
  The demise of copper has been predicted for years as speeds continue to
  increase unabated – a demise that has not materialized.
  Cracks are forming in copper's dominance, however, as reach has diminished
- and power has soared, portending more optical integration into previously
+ and power has soared, foretelling more optical integration into previously
  all-electrical systems.
 \end_layout
 
@@ -532,7 +532,9 @@ Since signal integrity involves the analysis of the transmission and reception
 
 \begin_layout Standard
 This paper serves as a small tutorial on how optical modulators and receivers
- can be integrated into signal integrity analysis.
+ can be integrated into signal integrity analysis when the entire electical-opti
+cal path (in the case of the transmitter) and the entire optical-electrical
+ path (in the case of the receiver) must be considered.
 \end_layout
 
 \begin_layout Standard
@@ -545,6 +547,81 @@ literal "false"
 \end_inset
 
  for a more in-depth discussion.
+\end_layout
+
+\begin_layout Section*
+Optical Modulators
+\end_layout
+
+\begin_layout Subsection*
+Mach-Zehnder Modulators
+\end_layout
+
+\begin_layout Itemize
+General principle
+\end_layout
+
+\begin_layout Itemize
+The segmented model
+\end_layout
+
+\begin_layout Subsection*
+Ring Modulators
+\end_layout
+
+\begin_layout Itemize
+General principle
+\end_layout
+
+\begin_layout Itemize
+Tilt model
+\end_layout
+
+\begin_layout Section*
+Packaging Challenges
+\end_layout
+
+\begin_layout Itemize
+Present the different OIF type pictures.
+\end_layout
+
+\begin_layout Itemize
+Issue of driver/TIA mounted directly on the PIC
+\end_layout
+
+\begin_layout Itemize
+Issues of crosstalk between the driver and TIA
+\end_layout
+
+\begin_layout Section*
+PDN Challenges
+\end_layout
+
+\begin_layout Standard
+As an expert in power integrity instructs, 
+\begin_inset Quotes eld
+\end_inset
+
+usually one can optimize the signal integrity or the power integrity, but
+ not both
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{CPO}
+\end_layout
+
+\end_inset
+
+ this cannot be any truer.
 \end_layout
 
 \begin_layout Standard
