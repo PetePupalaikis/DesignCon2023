@@ -1,0 +1,700 @@
+%<TpX v="5" TeXFormat="tikz" PdfTeXFormat="tikz" ArrowsSize="0.7" StarsSize="1" DefaultFontHeight="5" DefaultSymbolSize="30" ApproximationPrecision="0.01" PicScale="1" Border="2" BitmapRes="20000" HatchingStep="2" DottedSize="0.5" DashSize="1" LineWidth="0.3" TeXFigure="none" PicMagnif="1" FontSizeInTeX="0">
+%  <rect x="186" y="-99" w="6" h="42" lc="black"/>
+%  <polyline lc="black">183,-60 186,-60</polyline>
+%  <text x="185.3" y="-59" t="1" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">183,-66 186,-66</polyline>
+%  <text x="185.3" y="-65" t="2" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">183,-72 186,-72</polyline>
+%  <text x="185.3" y="-71" t="3" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">183,-78 186,-78</polyline>
+%  <text x="185.3" y="-77" t="4" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">183,-84 186,-84</polyline>
+%  <text x="185.3" y="-83" t="5" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">183,-90 186,-90</polyline>
+%  <text x="185.3" y="-89" t="6" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">183,-96 186,-96</polyline>
+%  <text x="185.3" y="-95" t="7" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">195,-63 192,-63</polyline>
+%  <text x="193" y="-62" t="8" h="3" lc="black"/>
+%  <polyline lc="black">195,-69 192,-69</polyline>
+%  <text x="193" y="-68" t="9" h="3" lc="black"/>
+%  <polyline lc="black">195,-75 192,-75</polyline>
+%  <text x="193" y="-74" t="10" h="3" lc="black"/>
+%  <polyline lc="black">195,-81 192,-81</polyline>
+%  <text x="193" y="-80" t="11" h="3" lc="black"/>
+%  <polyline lc="black">195,-87 192,-87</polyline>
+%  <text x="193" y="-86" t="12" h="3" lc="black"/>
+%  <polyline lc="black">195,-93 192,-93</polyline>
+%  <text x="193" y="-92" t="13" h="3" lc="black"/>
+%  <text x="189" y="-54.5" t="Substrate" h="3" halign="c" lc="black"/>
+%  <text x="204" y="-92" t="ic_gnd" h="3" halign="c" lc="black"/>
+%  <rect x="153" y="-28" w="6" h="6" lc="black"/>
+%  <polyline lc="black">156,-19 156,-22</polyline>
+%  <text x="158" y="-21.2" t="1" h="3" halign="c" lc="black"/>
+%  <polyline lc="black">156,-31 156,-28</polyline>
+%  <text x="158" y="-31.6" t="2" h="3" halign="c" lc="black"/>
+%  <text x="160.5" y="-26" t="AVDDH.si" h="3" lc="black"/>
+%  <ellipse x="126" y="-19" dx="6" dy="6" lc="black"/>
+%  <polyline arr1="h44" arrs="0.5" lc="black">126,-21.25 126,-16.75</polyline>
+%  <polyline lc="black">126,-25 126,-22</polyline>
+%  <polyline lc="black">126,-13 126,-16</polyline>
+%  <text x="130.5" y="-27.5" t="TAVDDH.si" h="3" lc="black"/>
+%  <text x="130.5" y="-23.75" t="I" h="3" lc="black"/>
+%  <text x="130.5" y="-20" t="AVDDH_CS" h="3" lc="black"/>
+%  <polyline lc="black">122,-43 122,-46</polyline>
+%  <polyline lc="black">105.562,-23.125 104.438,-23.125</polyline>
+%  <polyline lc="black">105,-22.562 105,-23.688</polyline>
+%  <polyline lc="black">105.562,-26.875 104.438,-26.875</polyline>
+%  <rect x="103.5" y="-28" w="3" h="6" lc="black"/>
+%  <polyline lc="black">105,-31 105,-28</polyline>
+%  <polyline lc="black">105,-19 105,-22</polyline>
+%  <text x="108" y="-26" t="AVDDH" h="3" lc="black"/>
+%  <polyline lc="black">122,-66 122,-69</polyline>
+%  <polyline lc="black">122,-88 122,-91</polyline>
+%  <polyline lc="black">122,-110 122,-113</polyline>
+%  <polyline lc="black">122,-132 122,-135</polyline>
+%  <polyline arr1="h44" arrs="0.5" lc="black">126,-33.25 126,-28.75</polyline>
+%  <rect x="124.5" y="-34" w="3" h="6" lc="black"/>
+%  <polyline lc="black">126,-25 126,-28</polyline>
+%  <polyline lc="black">126,-37 126,-34</polyline>
+%  <text x="123" y="-32" t="IDDH" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">122,-60 122,-57</polyline>
+%  <polyline lc="black">122,-82 122,-79</polyline>
+%  <polyline lc="black">122,-104 122,-101</polyline>
+%  <polyline lc="black">122,-126 122,-123</polyline>
+%  <polyline lc="black">122,-151 122,-148</polyline>
+%  <rect x="220" y="-120" w="6" h="60" lc="black"/>
+%  <polyline lc="black">217,-63 220,-63</polyline>
+%  <text x="219" y="-62" t="1" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-69 220,-69</polyline>
+%  <text x="219" y="-68" t="3" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-75 220,-75</polyline>
+%  <text x="219" y="-74" t="5" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-81 220,-81</polyline>
+%  <text x="219" y="-80" t="7" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-87 220,-87</polyline>
+%  <text x="219" y="-86" t="9" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-93 220,-93</polyline>
+%  <text x="219" y="-92" t="11" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-99 220,-99</polyline>
+%  <text x="219" y="-98" t="13" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-105 220,-105</polyline>
+%  <text x="219" y="-104" t="15" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-111 220,-111</polyline>
+%  <text x="219" y="-110" t="17" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">217,-117 220,-117</polyline>
+%  <text x="219" y="-116" t="19" h="3" halign="r" lc="black"/>
+%  <polyline lc="black">229,-63 226,-63</polyline>
+%  <text x="227" y="-62" t="2" h="3" lc="black"/>
+%  <polyline lc="black">229,-69 226,-69</polyline>
+%  <text x="227" y="-68" t="4" h="3" lc="black"/>
+%  <polyline lc="black">229,-75 226,-75</polyline>
+%  <text x="227" y="-74" t="6" h="3" lc="black"/>
+%  <polyline lc="black">229,-81 226,-81</polyline>
+%  <text x="227" y="-80" t="8" h="3" lc="black"/>
+%  <polyline lc="black">229,-87 226,-87</polyline>
+%  <text x="227" y="-86" t="10" h="3" lc="black"/>
+%  <polyline lc="black">229,-93 226,-93</polyline>
+%  <text x="227" y="-92" t="12" h="3" lc="black"/>
+%  <polyline lc="black">229,-99 226,-99</polyline>
+%  <text x="227" y="-98" t="14" h="3" lc="black"/>
+%  <polyline lc="black">229,-105 226,-105</polyline>
+%  <text x="227" y="-104" t="16" h="3" lc="black"/>
+%  <polyline lc="black">229,-111 226,-111</polyline>
+%  <text x="227" y="-110" t="18" h="3" lc="black"/>
+%  <polyline lc="black">229,-117 226,-117</polyline>
+%  <text x="227" y="-116" t="20" h="3" lc="black"/>
+%  <text x="223" y="-57.5" t="Connector" h="3" halign="c" lc="black"/>
+%  <polyline lc="black">213.25,-98.25 214.75,-99.75</polyline>
+%  <polyline lc="black">214.75,-98.25 213.25,-99.75</polyline>
+%  <polyline lc="black">217,-99 214,-99</polyline>
+%  <polyline lc="black">213.25,-104.25 214.75,-105.75</polyline>
+%  <polyline lc="black">214.75,-104.25 213.25,-105.75</polyline>
+%  <polyline lc="black">217,-105 214,-105</polyline>
+%  <polyline lc="black">213.25,-110.25 214.75,-111.75</polyline>
+%  <polyline lc="black">214.75,-110.25 213.25,-111.75</polyline>
+%  <polyline lc="black">217,-111 214,-111</polyline>
+%  <polyline lc="black">213.25,-116.25 214.75,-117.75</polyline>
+%  <polyline lc="black">214.75,-116.25 213.25,-117.75</polyline>
+%  <polyline lc="black">217,-117 214,-117</polyline>
+%  <polygon fill="black">208,-96 212,-96 210,-98 208,-96</polygon>
+%  <polyline lc="black">210,-93 210,-96</polyline>
+%  <text x="206" y="-62" t="pl_avddh" h="3" halign="c" lc="black"/>
+%  <text x="206" y="-68" t="pl_avddl" h="3" halign="c" lc="black"/>
+%  <text x="206" y="-74" t="pl_avddo1" h="3" halign="c" lc="black"/>
+%  <text x="206" y="-80" t="pl_avddo2" h="3" halign="c" lc="black"/>
+%  <text x="206" y="-86" t="pl_avddt" h="3" halign="c" lc="black"/>
+%  <ellipse x="259" y="-81" dx="6" dy="6" lc="black"/>
+%  <polyline lc="black">258.438,-79.125 259.562,-79.125</polyline>
+%  <polyline lc="black">259,-78.562 259,-79.688</polyline>
+%  <polyline lc="black">258.438,-82.875 259.562,-82.875</polyline>
+%  <polyline lc="black">259,-75 259,-78</polyline>
+%  <polyline lc="black">259,-87 259,-84</polyline>
+%  <ellipse x="267" y="-72" dx="6" dy="6" lc="black"/>
+%  <polyline lc="black">266.438,-70.125 267.562,-70.125</polyline>
+%  <polyline lc="black">267,-69.562 267,-70.688</polyline>
+%  <polyline lc="black">266.438,-73.875 267.562,-73.875</polyline>
+%  <polyline lc="black">267,-63 267,-69</polyline>
+%  <polyline lc="black">267,-87 267,-75</polyline>
+%  <text x="271.5" y="-73" t="VDDH" h="3" lc="black"/>
+%  <polyline lc="black">214.562,-135.125 213.438,-135.125</polyline>
+%  <polyline lc="black">214,-134.562 214,-135.688</polyline>
+%  <polyline lc="black">214.562,-138.875 213.438,-138.875</polyline>
+%  <rect x="212.5" y="-140" w="3" h="6" lc="black"/>
+%  <polyline lc="black">214,-143 214,-140</polyline>
+%  <polyline lc="black">214,-131 214,-134</polyline>
+%  <text x="217" y="-138" t="DSP_GND" h="3" lc="black"/>
+%  <polyline lc="black">250.562,-135.125 249.438,-135.125</polyline>
+%  <polyline lc="black">250,-134.562 250,-135.688</polyline>
+%  <polyline lc="black">250.562,-138.875 249.438,-138.875</polyline>
+%  <rect x="248.5" y="-140" w="3" h="6" lc="black"/>
+%  <polyline lc="black">250,-143 250,-140</polyline>
+%  <polyline lc="black">250,-131 250,-134</polyline>
+%  <text x="253" y="-138" t="VDDH" h="3" lc="black"/>
+%  <polygon fill="black">230,-120 234,-120 232,-122 230,-120</polygon>
+%  <polyline lc="black">232,-117 232,-120</polyline>
+%  <text x="242" y="-92" t="abs_gnd" h="3" halign="c" lc="black"/>
+%  <text x="259" y="-62" t="abs_vddh" h="3" halign="c" lc="black"/>
+%  <text x="214" y="-130" t="ic_gnd" h="3" halign="c" lc="black"/>
+%  <text x="214" y="-146" t="abs_gnd" h="3" halign="c" lc="black"/>
+%  <text x="250" y="-130" t="abs_vddh" h="3" halign="c" lc="black"/>
+%  <text x="250" y="-146" t="abs_gnd" h="3" halign="c" lc="black"/>
+%  <polyline lc="black">214.562,-34.125 213.438,-34.125</polyline>
+%  <polyline lc="black">214,-33.562 214,-34.688</polyline>
+%  <polyline lc="black">214.562,-37.875 213.438,-37.875</polyline>
+%  <rect x="212.5" y="-39" w="3" h="6" lc="black"/>
+%  <polyline lc="black">214,-42 214,-39</polyline>
+%  <polyline lc="black">214,-30 214,-33</polyline>
+%  <text x="217" y="-37" t="MID_AVDDH" h="3" lc="black"/>
+%  <polyline lc="black">250.562,-34.125 249.438,-34.125</polyline>
+%  <polyline lc="black">250,-33.562 250,-34.688</polyline>
+%  <polyline lc="black">250.562,-37.875 249.438,-37.875</polyline>
+%  <rect x="248.5" y="-39" w="3" h="6" lc="black"/>
+%  <polyline lc="black">250,-42 250,-39</polyline>
+%  <polyline lc="black">250,-30 250,-33</polyline>
+%  <text x="253" y="-37" t="MID_GND" h="3" lc="black"/>
+%  <text x="214" y="-29" t="pl_avddh" h="3" halign="c" lc="black"/>
+%  <text x="214" y="-45" t="lga_gnd" h="3" halign="c" lc="black"/>
+%  <text x="250" y="-29" t="lga_gnd" h="3" halign="c" lc="black"/>
+%  <text x="250" y="-45" t="abs_gnd" h="3" halign="c" lc="black"/>
+%  <ellipse x="267" y="-99" dx="6" dy="6" lc="black"/>
+%  <polyline arr1="h44" arrs="0.5" lc="black">267,-101.25 267,-96.75</polyline>
+%  <polyline lc="black">267,-105 267,-102</polyline>
+%  <polyline lc="black">267,-93 267,-96</polyline>
+%  <text x="271.5" y="-103.75" t="9.0 A" h="3" lc="black"/>
+%  <text x="271.5" y="-100" t="IDD" h="3" lc="black"/>
+%  <polygon fill="black">265,-108 269,-108 267,-110 265,-108</polygon>
+%  <polyline lc="black">267,-105 267,-108</polyline>
+%  <polyline lc="black">105,-145 105,-151</polyline>
+%  <polyline lc="black">204,-93 195,-93</polyline>
+%  <polyline lc="black">183,-60 180,-60</polyline>
+%  <polyline lc="black">183,-66 174,-66</polyline>
+%  <polyline lc="black">186,-66 168,-66</polyline>
+%  <polyline lc="black">183,-72 174,-72</polyline>
+%  <polyline lc="black">186,-72 168,-72</polyline>
+%  <polyline lc="black">168,-72 168,-66</polyline>
+%  <polyline lc="black">183,-78 174,-78</polyline>
+%  <polyline lc="black">186,-78 162,-78</polyline>
+%  <polyline lc="black">162,-78 162,-66</polyline>
+%  <polyline lc="black">162,-66 105,-66</polyline>
+%  <polyline lc="black">183,-84 174,-84</polyline>
+%  <polyline lc="black">186,-84 162,-84</polyline>
+%  <polyline lc="black">162,-84 162,-88</polyline>
+%  <polyline lc="black">162,-88 105,-88</polyline>
+%  <polyline lc="black">183,-90 174,-90</polyline>
+%  <polyline lc="black">186,-90 168,-90</polyline>
+%  <polyline lc="black">168,-90 168,-110</polyline>
+%  <polyline lc="black">168,-110 105,-110</polyline>
+%  <polyline lc="black">183,-96 174,-96</polyline>
+%  <polyline lc="black">186,-96 174,-96</polyline>
+%  <polyline lc="black">174,-96 174,-132</polyline>
+%  <polyline lc="black">174,-132 105,-132</polyline>
+%  <polyline lc="black">180,-60 180,-13</polyline>
+%  <polyline lc="black">180,-13 105,-13</polyline>
+%  <polyline lc="black">151,-13 112,-13</polyline>
+%  <polyline lc="black">151,-43 112,-43</polyline>
+%  <polyline lc="black">151,-132 112,-132</polyline>
+%  <polyline lc="black">151,-110 112,-110</polyline>
+%  <polyline lc="black">151,-88 112,-88</polyline>
+%  <polyline lc="black">151,-66 112,-66</polyline>
+%  <polyline lc="black">105,-31 105,-37</polyline>
+%  <polyline lc="black">156,-60 156,-90</polyline>
+%  <polyline lc="black">105,-82 156,-82</polyline>
+%  <polyline lc="black">156,-119.5 156,-151</polyline>
+%  <polyline lc="black">105,-37 156,-37</polyline>
+%  <polyline lc="black">156,-37 156,-60</polyline>
+%  <polyline lc="black">156,-104 105,-104</polyline>
+%  <polyline lc="black">156,-126 105,-126</polyline>
+%  <polyline lc="black">105,-13 105,-19</polyline>
+%  <polyline lc="black">105,-43 105,-49</polyline>
+%  <polyline lc="black">156,-151 204,-151</polyline>
+%  <polyline lc="black">204,-151 204,-93</polyline>
+%  <polyline lc="black">156,-31 156,-37</polyline>
+%  <polyline lc="black">105,-54 105,-60</polyline>
+%  <polyline lc="black">151,-54 151,-60</polyline>
+%  <polyline lc="black">151,-60 112,-60</polyline>
+%  <polyline lc="black">151,-76 151,-82</polyline>
+%  <polyline lc="black">151,-98 151,-104</polyline>
+%  <polyline lc="black">151,-120 151,-126</polyline>
+%  <polyline lc="black">151,-145 151,-151</polyline>
+%  <polyline lc="black">105,-151 156,-151</polyline>
+%  <polyline lc="black">151,-82 112,-82</polyline>
+%  <polyline lc="black">151,-104 112,-104</polyline>
+%  <polyline lc="black">151,-126 112,-126</polyline>
+%  <polyline lc="black">137,-43 105,-43</polyline>
+%  <polyline lc="black">137,-60 105,-60</polyline>
+%  <polyline lc="black">168,-66 168,-43</polyline>
+%  <polyline lc="black">168,-43 117,-43</polyline>
+%  <polyline lc="black">105,-66 105,-72</polyline>
+%  <polyline lc="black">105,-82 105,-76</polyline>
+%  <polyline lc="black">105,-88 105,-94</polyline>
+%  <polyline lc="black">105,-104 105,-98</polyline>
+%  <polyline lc="black">112,-151 151,-151</polyline>
+%  <polyline lc="black">105,-132 105,-138</polyline>
+%  <polyline lc="black">105,-110 105,-116</polyline>
+%  <polyline lc="black">122,-126 105,-126</polyline>
+%  <polyline lc="black">105,-126 105,-120</polyline>
+%  <polyline lc="black">112,-37 151,-37</polyline>
+%  <polyline lc="black">156,-90 156,-120</polyline>
+%  <polyline lc="black">156,-60 117,-60</polyline>
+%  <polyline lc="black">156,-19 156,-13</polyline>
+%  <polyline lc="black">151,-49 151,-43</polyline>
+%  <polyline lc="black">151,-72 151,-66</polyline>
+%  <polyline lc="black">151,-94 151,-88</polyline>
+%  <polyline lc="black">151,-116 151,-110</polyline>
+%  <polyline lc="black">151,-138 151,-132</polyline>
+%  <polyline lc="black">247,-63 229,-63</polyline>
+%  <polyline lc="black">229,-87 253,-87</polyline>
+%  <polyline lc="black">253,-87 253,-75</polyline>
+%  <polyline lc="black">247,-75 229,-75</polyline>
+%  <polyline lc="black">247,-75 247,-81</polyline>
+%  <polyline lc="black">247,-81 229,-81</polyline>
+%  <polyline lc="black">247,-75 247,-63</polyline>
+%  <polyline lc="black">195,-63 204,-63</polyline>
+%  <polyline lc="black">195,-69 204,-69</polyline>
+%  <polyline lc="black">195,-75 204,-75</polyline>
+%  <polyline lc="black">218,-81 204,-81</polyline>
+%  <polyline lc="black">195,-87 204,-87</polyline>
+%  <polyline lc="black">219,-93 210,-93</polyline>
+%  <polyline lc="black">204,-63 217,-63</polyline>
+%  <polyline lc="black">204,-69 217,-69</polyline>
+%  <polyline lc="black">204,-75 217,-75</polyline>
+%  <polyline lc="black">204,-81 195,-81</polyline>
+%  <polyline lc="black">204,-87 217,-87</polyline>
+%  <polyline lc="black">229,-93 247,-93</polyline>
+%  <polyline lc="black">259,-87 259,-93</polyline>
+%  <polyline lc="black">259,-93 267,-93</polyline>
+%  <polyline lc="black">253,-75 253,-69</polyline>
+%  <polyline lc="black">253,-69 229,-69</polyline>
+%  <polyline lc="black">259,-75 253,-75</polyline>
+%  <polyline lc="black">229,-99 232,-99</polyline>
+%  <polyline lc="black">232,-99 232,-105</polyline>
+%  <polyline lc="black">229,-111 232,-111</polyline>
+%  <polyline lc="black">232,-105 229,-105</polyline>
+%  <polyline lc="black">232,-105 232,-111</polyline>
+%  <polyline lc="black">232,-111 232,-117</polyline>
+%  <polyline lc="black">232,-117 229,-117</polyline>
+%  <polyline lc="black">247,-93 265,-93</polyline>
+%  <polyline lc="black">267,-63 247,-63</polyline>
+%  <polyline lc="black">267,-93 267,-87</polyline>
+%  <ellipse x="151" y="-88" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="204" y="-87" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-126" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="247" y="-75" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-132" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="204" y="-93" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="168" y="-66" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-132" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-60" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-60" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-66" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="232" y="-105" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="242" y="-93" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-104" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-66" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-104" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="232" y="-111" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-110" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="204" y="-63" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-110" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="232" y="-117" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="204" y="-69" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="126" y="-37" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-37" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="204" y="-75" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-104" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-43" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-82" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-43" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-82" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-151" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="204" y="-81" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-151" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-88" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="151" y="-151" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="253" y="-75" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="259" y="-93" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="259" y="-63" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="247" y="-63" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-82" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="126" y="-13" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-60" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-13" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="267" y="-93" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="122" y="-126" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%  <ellipse x="156" y="-126" dx="0.75" dy="0.75" lc="black" fill="black"/>
+%</TpX>
+\centering
+\begin{tikzpicture}[x=1.00mm, y=1.00mm, inner xsep=0pt, inner ysep=0pt, outer xsep=0pt, outer ysep=0pt]
+\path[line width=0mm] (101.50,-153.38) rectangle +(180.66,142.75);
+\definecolor{L}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L] (186.00,-57.00) [rotate around={270:(186.00,-57.00)}] rectangle +(42.00,6.00);
+\path[line width=0.30mm, draw=L] (183.00,-60.00) -- (186.00,-60.00);
+\definecolor{T}{rgb}{0,0,0}
+\draw[T] (185.30,-59.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{1}};
+\path[line width=0.30mm, draw=L] (183.00,-66.00) -- (186.00,-66.00);
+\draw[T] (185.30,-65.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{2}};
+\path[line width=0.30mm, draw=L] (183.00,-72.00) -- (186.00,-72.00);
+\draw[T] (185.30,-71.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{3}};
+\path[line width=0.30mm, draw=L] (183.00,-78.00) -- (186.00,-78.00);
+\draw[T] (185.30,-77.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{4}};
+\path[line width=0.30mm, draw=L] (183.00,-84.00) -- (186.00,-84.00);
+\draw[T] (185.30,-83.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{5}};
+\path[line width=0.30mm, draw=L] (183.00,-90.00) -- (186.00,-90.00);
+\draw[T] (185.30,-89.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{6}};
+\path[line width=0.30mm, draw=L] (183.00,-96.00) -- (186.00,-96.00);
+\draw[T] (185.30,-95.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{7}};
+\path[line width=0.30mm, draw=L] (195.00,-63.00) -- (192.00,-63.00);
+\draw[T] (193.00,-62.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{8}};
+\path[line width=0.30mm, draw=L] (195.00,-69.00) -- (192.00,-69.00);
+\draw[T] (193.00,-68.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{9}};
+\path[line width=0.30mm, draw=L] (195.00,-75.00) -- (192.00,-75.00);
+\draw[T] (193.00,-74.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{10}};
+\path[line width=0.30mm, draw=L] (195.00,-81.00) -- (192.00,-81.00);
+\draw[T] (193.00,-80.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{11}};
+\path[line width=0.30mm, draw=L] (195.00,-87.00) -- (192.00,-87.00);
+\draw[T] (193.00,-86.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{12}};
+\path[line width=0.30mm, draw=L] (195.00,-93.00) -- (192.00,-93.00);
+\draw[T] (193.00,-92.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{13}};
+\draw[T] (189.00,-54.50) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{Substrate}};
+\draw[T] (204.00,-92.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{ic\symbol{95}gnd}};
+\path[line width=0.30mm, draw=L] (153.00,-22.00) [rotate around={270:(153.00,-22.00)}] rectangle +(6.00,6.00);
+\path[line width=0.30mm, draw=L] (156.00,-19.00) -- (156.00,-22.00);
+\draw[T] (158.00,-21.20) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{1}};
+\path[line width=0.30mm, draw=L] (156.00,-31.00) -- (156.00,-28.00);
+\draw[T] (158.00,-31.60) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{2}};
+\draw[T] (160.50,-26.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{AVDDH.si}};
+\path[line width=0.30mm, draw=L] (126.00,-19.00) ellipse (3.00mm and 3.00mm);
+\path[line width=0.30mm, draw=L] (126.00,-21.25) -- (126.00,-16.75);
+\definecolor{F}{rgb}{0,0,0}
+\path[line width=0.30mm, draw=L, fill=F] (126.00,-21.25) -- (126.35,-19.85) -- (125.65,-19.85) -- (126.00,-21.25) -- cycle;
+\path[line width=0.30mm, draw=L] (126.00,-25.00) -- (126.00,-22.00);
+\path[line width=0.30mm, draw=L] (126.00,-13.00) -- (126.00,-16.00);
+\draw[T] (130.50,-27.50) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{TAVDDH.si}};
+\draw[T] (130.50,-23.75) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{I}};
+\draw[T] (130.50,-20.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{AVDDH\symbol{95}CS}};
+\path[line width=0.30mm, draw=L] (122.00,-43.00) -- (122.00,-46.00);
+\path[line width=0.30mm, draw=L] (105.56,-23.13) -- (104.44,-23.13);
+\path[line width=0.30mm, draw=L] (105.00,-22.56) -- (105.00,-23.69);
+\path[line width=0.30mm, draw=L] (105.56,-26.88) -- (104.44,-26.88);
+\path[line width=0.30mm, draw=L] (103.50,-22.00) [rotate around={270:(103.50,-22.00)}] rectangle +(6.00,3.00);
+\path[line width=0.30mm, draw=L] (105.00,-31.00) -- (105.00,-28.00);
+\path[line width=0.30mm, draw=L] (105.00,-19.00) -- (105.00,-22.00);
+\draw[T] (108.00,-26.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{AVDDH}};
+\path[line width=0.30mm, draw=L] (122.00,-66.00) -- (122.00,-69.00);
+\path[line width=0.30mm, draw=L] (122.00,-88.00) -- (122.00,-91.00);
+\path[line width=0.30mm, draw=L] (122.00,-110.00) -- (122.00,-113.00);
+\path[line width=0.30mm, draw=L] (122.00,-132.00) -- (122.00,-135.00);
+\path[line width=0.30mm, draw=L] (126.00,-33.25) -- (126.00,-28.75);
+\path[line width=0.30mm, draw=L, fill=F] (126.00,-33.25) -- (126.35,-31.85) -- (125.65,-31.85) -- (126.00,-33.25) -- cycle;
+\path[line width=0.30mm, draw=L] (124.50,-28.00) [rotate around={270:(124.50,-28.00)}] rectangle +(6.00,3.00);
+\path[line width=0.30mm, draw=L] (126.00,-25.00) -- (126.00,-28.00);
+\path[line width=0.30mm, draw=L] (126.00,-37.00) -- (126.00,-34.00);
+\draw[T] (123.00,-32.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{IDDH}};
+\path[line width=0.30mm, draw=L] (122.00,-60.00) -- (122.00,-57.00);
+\path[line width=0.30mm, draw=L] (122.00,-82.00) -- (122.00,-79.00);
+\path[line width=0.30mm, draw=L] (122.00,-104.00) -- (122.00,-101.00);
+\path[line width=0.30mm, draw=L] (122.00,-126.00) -- (122.00,-123.00);
+\path[line width=0.30mm, draw=L] (122.00,-151.00) -- (122.00,-148.00);
+\path[line width=0.30mm, draw=L] (220.00,-60.00) [rotate around={270:(220.00,-60.00)}] rectangle +(60.00,6.00);
+\path[line width=0.30mm, draw=L] (217.00,-63.00) -- (220.00,-63.00);
+\draw[T] (219.00,-62.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{1}};
+\path[line width=0.30mm, draw=L] (217.00,-69.00) -- (220.00,-69.00);
+\draw[T] (219.00,-68.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{3}};
+\path[line width=0.30mm, draw=L] (217.00,-75.00) -- (220.00,-75.00);
+\draw[T] (219.00,-74.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{5}};
+\path[line width=0.30mm, draw=L] (217.00,-81.00) -- (220.00,-81.00);
+\draw[T] (219.00,-80.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{7}};
+\path[line width=0.30mm, draw=L] (217.00,-87.00) -- (220.00,-87.00);
+\draw[T] (219.00,-86.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{9}};
+\path[line width=0.30mm, draw=L] (217.00,-93.00) -- (220.00,-93.00);
+\draw[T] (219.00,-92.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{11}};
+\path[line width=0.30mm, draw=L] (217.00,-99.00) -- (220.00,-99.00);
+\draw[T] (219.00,-98.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{13}};
+\path[line width=0.30mm, draw=L] (217.00,-105.00) -- (220.00,-105.00);
+\draw[T] (219.00,-104.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{15}};
+\path[line width=0.30mm, draw=L] (217.00,-111.00) -- (220.00,-111.00);
+\draw[T] (219.00,-110.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{17}};
+\path[line width=0.30mm, draw=L] (217.00,-117.00) -- (220.00,-117.00);
+\draw[T] (219.00,-116.00) node[anchor=base east]{\textcolor[rgb]{0, 0, 0}{19}};
+\path[line width=0.30mm, draw=L] (229.00,-63.00) -- (226.00,-63.00);
+\draw[T] (227.00,-62.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{2}};
+\path[line width=0.30mm, draw=L] (229.00,-69.00) -- (226.00,-69.00);
+\draw[T] (227.00,-68.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{4}};
+\path[line width=0.30mm, draw=L] (229.00,-75.00) -- (226.00,-75.00);
+\draw[T] (227.00,-74.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{6}};
+\path[line width=0.30mm, draw=L] (229.00,-81.00) -- (226.00,-81.00);
+\draw[T] (227.00,-80.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{8}};
+\path[line width=0.30mm, draw=L] (229.00,-87.00) -- (226.00,-87.00);
+\draw[T] (227.00,-86.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{10}};
+\path[line width=0.30mm, draw=L] (229.00,-93.00) -- (226.00,-93.00);
+\draw[T] (227.00,-92.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{12}};
+\path[line width=0.30mm, draw=L] (229.00,-99.00) -- (226.00,-99.00);
+\draw[T] (227.00,-98.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{14}};
+\path[line width=0.30mm, draw=L] (229.00,-105.00) -- (226.00,-105.00);
+\draw[T] (227.00,-104.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{16}};
+\path[line width=0.30mm, draw=L] (229.00,-111.00) -- (226.00,-111.00);
+\draw[T] (227.00,-110.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{18}};
+\path[line width=0.30mm, draw=L] (229.00,-117.00) -- (226.00,-117.00);
+\draw[T] (227.00,-116.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{20}};
+\draw[T] (223.00,-57.50) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{Connector}};
+\path[line width=0.30mm, draw=L] (213.25,-98.25) -- (214.75,-99.75);
+\path[line width=0.30mm, draw=L] (214.75,-98.25) -- (213.25,-99.75);
+\path[line width=0.30mm, draw=L] (217.00,-99.00) -- (214.00,-99.00);
+\path[line width=0.30mm, draw=L] (213.25,-104.25) -- (214.75,-105.75);
+\path[line width=0.30mm, draw=L] (214.75,-104.25) -- (213.25,-105.75);
+\path[line width=0.30mm, draw=L] (217.00,-105.00) -- (214.00,-105.00);
+\path[line width=0.30mm, draw=L] (213.25,-110.25) -- (214.75,-111.75);
+\path[line width=0.30mm, draw=L] (214.75,-110.25) -- (213.25,-111.75);
+\path[line width=0.30mm, draw=L] (217.00,-111.00) -- (214.00,-111.00);
+\path[line width=0.30mm, draw=L] (213.25,-116.25) -- (214.75,-117.75);
+\path[line width=0.30mm, draw=L] (214.75,-116.25) -- (213.25,-117.75);
+\path[line width=0.30mm, draw=L] (217.00,-117.00) -- (214.00,-117.00);
+\path[line width=0.30mm, draw=L, fill=F] (208.00,-96.00) -- (212.00,-96.00) -- (210.00,-98.00) -- (208.00,-96.00) -- cycle;
+\path[line width=0.30mm, draw=L] (210.00,-93.00) -- (210.00,-96.00);
+\draw[T] (206.00,-62.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{pl\symbol{95}avddh}};
+\draw[T] (206.00,-68.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{pl\symbol{95}avddl}};
+\draw[T] (206.00,-74.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{pl\symbol{95}avddo1}};
+\draw[T] (206.00,-80.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{pl\symbol{95}avddo2}};
+\draw[T] (206.00,-86.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{pl\symbol{95}avddt}};
+\path[line width=0.30mm, draw=L] (259.00,-81.00) ellipse (3.00mm and 3.00mm);
+\path[line width=0.30mm, draw=L] (258.44,-79.13) -- (259.56,-79.13);
+\path[line width=0.30mm, draw=L] (259.00,-78.56) -- (259.00,-79.69);
+\path[line width=0.30mm, draw=L] (258.44,-82.88) -- (259.56,-82.88);
+\path[line width=0.30mm, draw=L] (259.00,-75.00) -- (259.00,-78.00);
+\path[line width=0.30mm, draw=L] (259.00,-87.00) -- (259.00,-84.00);
+\path[line width=0.30mm, draw=L] (267.00,-72.00) ellipse (3.00mm and 3.00mm);
+\path[line width=0.30mm, draw=L] (266.44,-70.13) -- (267.56,-70.13);
+\path[line width=0.30mm, draw=L] (267.00,-69.56) -- (267.00,-70.69);
+\path[line width=0.30mm, draw=L] (266.44,-73.88) -- (267.56,-73.88);
+\path[line width=0.30mm, draw=L] (267.00,-63.00) -- (267.00,-69.00);
+\path[line width=0.30mm, draw=L] (267.00,-87.00) -- (267.00,-75.00);
+\draw[T] (271.50,-73.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{VDDH}};
+\path[line width=0.30mm, draw=L] (214.56,-135.13) -- (213.44,-135.13);
+\path[line width=0.30mm, draw=L] (214.00,-134.56) -- (214.00,-135.69);
+\path[line width=0.30mm, draw=L] (214.56,-138.88) -- (213.44,-138.88);
+\path[line width=0.30mm, draw=L] (212.50,-134.00) [rotate around={270:(212.50,-134.00)}] rectangle +(6.00,3.00);
+\path[line width=0.30mm, draw=L] (214.00,-143.00) -- (214.00,-140.00);
+\path[line width=0.30mm, draw=L] (214.00,-131.00) -- (214.00,-134.00);
+\draw[T] (217.00,-138.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{DSP\symbol{95}GND}};
+\path[line width=0.30mm, draw=L] (250.56,-135.13) -- (249.44,-135.13);
+\path[line width=0.30mm, draw=L] (250.00,-134.56) -- (250.00,-135.69);
+\path[line width=0.30mm, draw=L] (250.56,-138.88) -- (249.44,-138.88);
+\path[line width=0.30mm, draw=L] (248.50,-134.00) [rotate around={270:(248.50,-134.00)}] rectangle +(6.00,3.00);
+\path[line width=0.30mm, draw=L] (250.00,-143.00) -- (250.00,-140.00);
+\path[line width=0.30mm, draw=L] (250.00,-131.00) -- (250.00,-134.00);
+\draw[T] (253.00,-138.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{VDDH}};
+\path[line width=0.30mm, draw=L, fill=F] (230.00,-120.00) -- (234.00,-120.00) -- (232.00,-122.00) -- (230.00,-120.00) -- cycle;
+\path[line width=0.30mm, draw=L] (232.00,-117.00) -- (232.00,-120.00);
+\draw[T] (242.00,-92.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{abs\symbol{95}gnd}};
+\draw[T] (259.00,-62.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{abs\symbol{95}vddh}};
+\draw[T] (214.00,-130.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{ic\symbol{95}gnd}};
+\draw[T] (214.00,-146.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{abs\symbol{95}gnd}};
+\draw[T] (250.00,-130.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{abs\symbol{95}vddh}};
+\draw[T] (250.00,-146.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{abs\symbol{95}gnd}};
+\path[line width=0.30mm, draw=L] (214.56,-34.13) -- (213.44,-34.13);
+\path[line width=0.30mm, draw=L] (214.00,-33.56) -- (214.00,-34.69);
+\path[line width=0.30mm, draw=L] (214.56,-37.88) -- (213.44,-37.88);
+\path[line width=0.30mm, draw=L] (212.50,-33.00) [rotate around={270:(212.50,-33.00)}] rectangle +(6.00,3.00);
+\path[line width=0.30mm, draw=L] (214.00,-42.00) -- (214.00,-39.00);
+\path[line width=0.30mm, draw=L] (214.00,-30.00) -- (214.00,-33.00);
+\draw[T] (217.00,-37.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{MID\symbol{95}AVDDH}};
+\path[line width=0.30mm, draw=L] (250.56,-34.13) -- (249.44,-34.13);
+\path[line width=0.30mm, draw=L] (250.00,-33.56) -- (250.00,-34.69);
+\path[line width=0.30mm, draw=L] (250.56,-37.88) -- (249.44,-37.88);
+\path[line width=0.30mm, draw=L] (248.50,-33.00) [rotate around={270:(248.50,-33.00)}] rectangle +(6.00,3.00);
+\path[line width=0.30mm, draw=L] (250.00,-42.00) -- (250.00,-39.00);
+\path[line width=0.30mm, draw=L] (250.00,-30.00) -- (250.00,-33.00);
+\draw[T] (253.00,-37.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{MID\symbol{95}GND}};
+\draw[T] (214.00,-29.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{pl\symbol{95}avddh}};
+\draw[T] (214.00,-45.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{lga\symbol{95}gnd}};
+\draw[T] (250.00,-29.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{lga\symbol{95}gnd}};
+\draw[T] (250.00,-45.00) node[anchor=base]{\textcolor[rgb]{0, 0, 0}{abs\symbol{95}gnd}};
+\path[line width=0.30mm, draw=L] (267.00,-99.00) ellipse (3.00mm and 3.00mm);
+\path[line width=0.30mm, draw=L] (267.00,-101.25) -- (267.00,-96.75);
+\path[line width=0.30mm, draw=L, fill=F] (267.00,-101.25) -- (267.35,-99.85) -- (266.65,-99.85) -- (267.00,-101.25) -- cycle;
+\path[line width=0.30mm, draw=L] (267.00,-105.00) -- (267.00,-102.00);
+\path[line width=0.30mm, draw=L] (267.00,-93.00) -- (267.00,-96.00);
+\draw[T] (271.50,-103.75) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{9.0 A}};
+\draw[T] (271.50,-100.00) node[anchor=base west]{\textcolor[rgb]{0, 0, 0}{IDD}};
+\path[line width=0.30mm, draw=L, fill=F] (265.00,-108.00) -- (269.00,-108.00) -- (267.00,-110.00) -- (265.00,-108.00) -- cycle;
+\path[line width=0.30mm, draw=L] (267.00,-105.00) -- (267.00,-108.00);
+\path[line width=0.30mm, draw=L] (105.00,-145.00) -- (105.00,-151.00);
+\path[line width=0.30mm, draw=L] (204.00,-93.00) -- (195.00,-93.00);
+\path[line width=0.30mm, draw=L] (183.00,-60.00) -- (180.00,-60.00);
+\path[line width=0.30mm, draw=L] (183.00,-66.00) -- (174.00,-66.00);
+\path[line width=0.30mm, draw=L] (186.00,-66.00) -- (168.00,-66.00);
+\path[line width=0.30mm, draw=L] (183.00,-72.00) -- (174.00,-72.00);
+\path[line width=0.30mm, draw=L] (186.00,-72.00) -- (168.00,-72.00);
+\path[line width=0.30mm, draw=L] (168.00,-72.00) -- (168.00,-66.00);
+\path[line width=0.30mm, draw=L] (183.00,-78.00) -- (174.00,-78.00);
+\path[line width=0.30mm, draw=L] (186.00,-78.00) -- (162.00,-78.00);
+\path[line width=0.30mm, draw=L] (162.00,-78.00) -- (162.00,-66.00);
+\path[line width=0.30mm, draw=L] (162.00,-66.00) -- (105.00,-66.00);
+\path[line width=0.30mm, draw=L] (183.00,-84.00) -- (174.00,-84.00);
+\path[line width=0.30mm, draw=L] (186.00,-84.00) -- (162.00,-84.00);
+\path[line width=0.30mm, draw=L] (162.00,-84.00) -- (162.00,-88.00);
+\path[line width=0.30mm, draw=L] (162.00,-88.00) -- (105.00,-88.00);
+\path[line width=0.30mm, draw=L] (183.00,-90.00) -- (174.00,-90.00);
+\path[line width=0.30mm, draw=L] (186.00,-90.00) -- (168.00,-90.00);
+\path[line width=0.30mm, draw=L] (168.00,-90.00) -- (168.00,-110.00);
+\path[line width=0.30mm, draw=L] (168.00,-110.00) -- (105.00,-110.00);
+\path[line width=0.30mm, draw=L] (183.00,-96.00) -- (174.00,-96.00);
+\path[line width=0.30mm, draw=L] (186.00,-96.00) -- (174.00,-96.00);
+\path[line width=0.30mm, draw=L] (174.00,-96.00) -- (174.00,-132.00);
+\path[line width=0.30mm, draw=L] (174.00,-132.00) -- (105.00,-132.00);
+\path[line width=0.30mm, draw=L] (180.00,-60.00) -- (180.00,-13.00);
+\path[line width=0.30mm, draw=L] (180.00,-13.00) -- (105.00,-13.00);
+\path[line width=0.30mm, draw=L] (151.00,-13.00) -- (112.00,-13.00);
+\path[line width=0.30mm, draw=L] (151.00,-43.00) -- (112.00,-43.00);
+\path[line width=0.30mm, draw=L] (151.00,-132.00) -- (112.00,-132.00);
+\path[line width=0.30mm, draw=L] (151.00,-110.00) -- (112.00,-110.00);
+\path[line width=0.30mm, draw=L] (151.00,-88.00) -- (112.00,-88.00);
+\path[line width=0.30mm, draw=L] (151.00,-66.00) -- (112.00,-66.00);
+\path[line width=0.30mm, draw=L] (105.00,-31.00) -- (105.00,-37.00);
+\path[line width=0.30mm, draw=L] (156.00,-60.00) -- (156.00,-90.00);
+\path[line width=0.30mm, draw=L] (105.00,-82.00) -- (156.00,-82.00);
+\path[line width=0.30mm, draw=L] (156.00,-119.50) -- (156.00,-151.00);
+\path[line width=0.30mm, draw=L] (105.00,-37.00) -- (156.00,-37.00);
+\path[line width=0.30mm, draw=L] (156.00,-37.00) -- (156.00,-60.00);
+\path[line width=0.30mm, draw=L] (156.00,-104.00) -- (105.00,-104.00);
+\path[line width=0.30mm, draw=L] (156.00,-126.00) -- (105.00,-126.00);
+\path[line width=0.30mm, draw=L] (105.00,-13.00) -- (105.00,-19.00);
+\path[line width=0.30mm, draw=L] (105.00,-43.00) -- (105.00,-49.00);
+\path[line width=0.30mm, draw=L] (156.00,-151.00) -- (204.00,-151.00);
+\path[line width=0.30mm, draw=L] (204.00,-151.00) -- (204.00,-93.00);
+\path[line width=0.30mm, draw=L] (156.00,-31.00) -- (156.00,-37.00);
+\path[line width=0.30mm, draw=L] (105.00,-54.00) -- (105.00,-60.00);
+\path[line width=0.30mm, draw=L] (151.00,-54.00) -- (151.00,-60.00);
+\path[line width=0.30mm, draw=L] (151.00,-60.00) -- (112.00,-60.00);
+\path[line width=0.30mm, draw=L] (151.00,-76.00) -- (151.00,-82.00);
+\path[line width=0.30mm, draw=L] (151.00,-98.00) -- (151.00,-104.00);
+\path[line width=0.30mm, draw=L] (151.00,-120.00) -- (151.00,-126.00);
+\path[line width=0.30mm, draw=L] (151.00,-145.00) -- (151.00,-151.00);
+\path[line width=0.30mm, draw=L] (105.00,-151.00) -- (156.00,-151.00);
+\path[line width=0.30mm, draw=L] (151.00,-82.00) -- (112.00,-82.00);
+\path[line width=0.30mm, draw=L] (151.00,-104.00) -- (112.00,-104.00);
+\path[line width=0.30mm, draw=L] (151.00,-126.00) -- (112.00,-126.00);
+\path[line width=0.30mm, draw=L] (137.00,-43.00) -- (105.00,-43.00);
+\path[line width=0.30mm, draw=L] (137.00,-60.00) -- (105.00,-60.00);
+\path[line width=0.30mm, draw=L] (168.00,-66.00) -- (168.00,-43.00);
+\path[line width=0.30mm, draw=L] (168.00,-43.00) -- (117.00,-43.00);
+\path[line width=0.30mm, draw=L] (105.00,-66.00) -- (105.00,-72.00);
+\path[line width=0.30mm, draw=L] (105.00,-82.00) -- (105.00,-76.00);
+\path[line width=0.30mm, draw=L] (105.00,-88.00) -- (105.00,-94.00);
+\path[line width=0.30mm, draw=L] (105.00,-104.00) -- (105.00,-98.00);
+\path[line width=0.30mm, draw=L] (112.00,-151.00) -- (151.00,-151.00);
+\path[line width=0.30mm, draw=L] (105.00,-132.00) -- (105.00,-138.00);
+\path[line width=0.30mm, draw=L] (105.00,-110.00) -- (105.00,-116.00);
+\path[line width=0.30mm, draw=L] (122.00,-126.00) -- (105.00,-126.00);
+\path[line width=0.30mm, draw=L] (105.00,-126.00) -- (105.00,-120.00);
+\path[line width=0.30mm, draw=L] (112.00,-37.00) -- (151.00,-37.00);
+\path[line width=0.30mm, draw=L] (156.00,-90.00) -- (156.00,-120.00);
+\path[line width=0.30mm, draw=L] (156.00,-60.00) -- (117.00,-60.00);
+\path[line width=0.30mm, draw=L] (156.00,-19.00) -- (156.00,-13.00);
+\path[line width=0.30mm, draw=L] (151.00,-49.00) -- (151.00,-43.00);
+\path[line width=0.30mm, draw=L] (151.00,-72.00) -- (151.00,-66.00);
+\path[line width=0.30mm, draw=L] (151.00,-94.00) -- (151.00,-88.00);
+\path[line width=0.30mm, draw=L] (151.00,-116.00) -- (151.00,-110.00);
+\path[line width=0.30mm, draw=L] (151.00,-138.00) -- (151.00,-132.00);
+\path[line width=0.30mm, draw=L] (247.00,-63.00) -- (229.00,-63.00);
+\path[line width=0.30mm, draw=L] (229.00,-87.00) -- (253.00,-87.00);
+\path[line width=0.30mm, draw=L] (253.00,-87.00) -- (253.00,-75.00);
+\path[line width=0.30mm, draw=L] (247.00,-75.00) -- (229.00,-75.00);
+\path[line width=0.30mm, draw=L] (247.00,-75.00) -- (247.00,-81.00);
+\path[line width=0.30mm, draw=L] (247.00,-81.00) -- (229.00,-81.00);
+\path[line width=0.30mm, draw=L] (247.00,-75.00) -- (247.00,-63.00);
+\path[line width=0.30mm, draw=L] (195.00,-63.00) -- (204.00,-63.00);
+\path[line width=0.30mm, draw=L] (195.00,-69.00) -- (204.00,-69.00);
+\path[line width=0.30mm, draw=L] (195.00,-75.00) -- (204.00,-75.00);
+\path[line width=0.30mm, draw=L] (218.00,-81.00) -- (204.00,-81.00);
+\path[line width=0.30mm, draw=L] (195.00,-87.00) -- (204.00,-87.00);
+\path[line width=0.30mm, draw=L] (219.00,-93.00) -- (210.00,-93.00);
+\path[line width=0.30mm, draw=L] (204.00,-63.00) -- (217.00,-63.00);
+\path[line width=0.30mm, draw=L] (204.00,-69.00) -- (217.00,-69.00);
+\path[line width=0.30mm, draw=L] (204.00,-75.00) -- (217.00,-75.00);
+\path[line width=0.30mm, draw=L] (204.00,-81.00) -- (195.00,-81.00);
+\path[line width=0.30mm, draw=L] (204.00,-87.00) -- (217.00,-87.00);
+\path[line width=0.30mm, draw=L] (229.00,-93.00) -- (247.00,-93.00);
+\path[line width=0.30mm, draw=L] (259.00,-87.00) -- (259.00,-93.00);
+\path[line width=0.30mm, draw=L] (259.00,-93.00) -- (267.00,-93.00);
+\path[line width=0.30mm, draw=L] (253.00,-75.00) -- (253.00,-69.00);
+\path[line width=0.30mm, draw=L] (253.00,-69.00) -- (229.00,-69.00);
+\path[line width=0.30mm, draw=L] (259.00,-75.00) -- (253.00,-75.00);
+\path[line width=0.30mm, draw=L] (229.00,-99.00) -- (232.00,-99.00);
+\path[line width=0.30mm, draw=L] (232.00,-99.00) -- (232.00,-105.00);
+\path[line width=0.30mm, draw=L] (229.00,-111.00) -- (232.00,-111.00);
+\path[line width=0.30mm, draw=L] (232.00,-105.00) -- (229.00,-105.00);
+\path[line width=0.30mm, draw=L] (232.00,-105.00) -- (232.00,-111.00);
+\path[line width=0.30mm, draw=L] (232.00,-111.00) -- (232.00,-117.00);
+\path[line width=0.30mm, draw=L] (232.00,-117.00) -- (229.00,-117.00);
+\path[line width=0.30mm, draw=L] (247.00,-93.00) -- (265.00,-93.00);
+\path[line width=0.30mm, draw=L] (267.00,-63.00) -- (247.00,-63.00);
+\path[line width=0.30mm, draw=L] (267.00,-93.00) -- (267.00,-87.00);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-88.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (204.00,-87.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-126.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (247.00,-75.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-132.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (204.00,-93.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (168.00,-66.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-132.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-60.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-60.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-66.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (232.00,-105.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (242.00,-93.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-104.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-66.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-104.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (232.00,-111.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-110.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (204.00,-63.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-110.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (232.00,-117.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (204.00,-69.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (126.00,-37.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-37.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (204.00,-75.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-104.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-43.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-82.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-43.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-82.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-151.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (204.00,-81.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-151.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-88.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (151.00,-151.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (253.00,-75.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (259.00,-93.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (259.00,-63.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (247.00,-63.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-82.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (126.00,-13.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-60.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-13.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (267.00,-93.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (122.00,-126.00) ellipse (0.38mm and 0.38mm);
+\path[line width=0.30mm, draw=L, fill=F] (156.00,-126.00) ellipse (0.38mm and 0.38mm);
+\end{tikzpicture}%

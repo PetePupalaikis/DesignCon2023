@@ -594,7 +594,7 @@ Issues of crosstalk between the driver and TIA
 \end_layout
 
 \begin_layout Section*
-PDN Challenges
+Power Delivery Challenges
 \end_layout
 
 \begin_layout Standard
@@ -622,6 +622,441 @@ ac{CPO}
 \end_inset
 
  this cannot be any truer.
+ The typical problem can be summarized as follows:
+\end_layout
+
+\begin_layout Itemize
+In 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{CPO}
+\end_layout
+
+\end_inset
+
+, the communications bandwidth density is very high (on the order of 
+\begin_inset Formula $10\thinspace\mathrm{Gb/s/mm^{2}}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Depending on the speed of each electrical channel (usually 
+\begin_inset Formula $100-200\thinspace\mathrm{Gb/s}$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{PAM}
+\end_layout
+
+\end_inset
+
+ at two bits per symbol (i.e.
+ PAM-4)), most of the area is taken up by ground and signal to form the
+ differential pairs necessary just for communication.
+\end_layout
+
+\begin_layout Itemize
+This leaves relatively small area for power and ground pads.
+\end_layout
+
+\begin_layout Standard
+Despite the small pad pitches employed (as low as 
+\begin_inset Formula $400\thinspace\mu m$
+\end_inset
+
+), this does not leave many pads for power and ground.
+ This small size and number of pads in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{CPO}
+\end_layout
+
+\end_inset
+
+ leads to specific 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{PDN}
+\end_layout
+
+\end_inset
+
+ challenges that must be analyzed.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{PDN}
+\end_layout
+
+\end_inset
+
+ consists of: 
+\end_layout
+
+\begin_layout Itemize
+series resistance, causing 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{IR}
+\end_layout
+
+\end_inset
+
+ drops on the voltage rails, and
+\end_layout
+
+\begin_layout Itemize
+series inductance, leading to resonances in the impedance of the network.
+\end_layout
+
+\begin_layout Standard
+While more pads means more of this in parallel, leading to lower inductance
+ and resistance, often there are limitations to the amount that this resistance
+ and inductance can be reduced.
+ Furthermore, portions of the delivery network might pass through wire bonds,
+ which are particularly inductive.
+ Finally, while inductance is typically mitigated by on-package and/or on-die
+ decoupling capacitors, in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{CPO}
+\end_layout
+
+\end_inset
+
+, this decoupling might not be possible or might be severely reduced due
+ to real estate limitations.
+\end_layout
+
+\begin_layout Subsection*
+Power Delivery Analysis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset include
+LatexCommand input
+preview true
+filename "AWSI_Y.TpX"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Typical 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{PDN}
+\end_layout
+
+\end_inset
+
+ analysis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PDNAnalysis"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The typical way to analyze power delivery is in three steps:
+\end_layout
+
+\begin_layout Enumerate
+Calculate the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{DC}
+\end_layout
+
+\end_inset
+
+ resistance of each pad in an optical module and use this information to
+ calculate the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{ESR}
+\end_layout
+
+\end_inset
+
+ for power domains based on the parallel combinations of the pads.
+ In other words, if a given pad has a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{DC}
+\end_layout
+
+\end_inset
+
+ resistance of 
+\begin_inset Formula $R$
+\end_inset
+
+, usually on the order of tens of milliohms, and there are 
+\begin_inset Formula $P$
+\end_inset
+
+ pads in parallel, the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{ESR}
+\end_layout
+
+\end_inset
+
+ at 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{DC}
+\end_layout
+
+\end_inset
+
+ of the power domain is calculated as
+\begin_inset Formula 
+\[
+ESR_{DC}=\left(\frac{P}{R}\right)^{-1}\mbox{.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calculate the frequency dependent impedance of the power domain by determining
+ the transfer characteristic of voltage drop vs.
+ current draw.
+ Many would know that this is, in fact, the Z-parameters of the power domain.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Apply known transient current waveforms to the frequency dependent impedance
+ to obtain transient voltage waveforms on the voltage rail.
+ Transient voltage waveforms can be analyzed for time- and frequency-domain
+ behavior such as peak-peak and rms voltage ripple along with spectral content.
+\end_layout
+
+\begin_layout Standard
+A typical analysis is shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:PDNAnalysis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ In 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:PDNAnalysis"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, a single voltage rail is shown passing through a connector and a substrate
+ to a die mounted on the top of the substrate (all other rails are removed
+ for simplicity).
+\end_layout
+
+\begin_layout Standard
+While an entire paper could be devoted to this topic, here are some basic
+ comments:
+\end_layout
+
+\begin_layout Itemize
+The analysis was performed using the 
+\emph on
+SignalIntegrity
+\emph default
+ software found at https://github.com/ TeledyneLeCroy/ SignalIntegrity.
+\end_layout
+
+\begin_layout Itemize
+The transient waveform is supplied by a subproject named TAVDDH.si through
+ the current source with reference designator AVDDH_CS.
+\end_layout
+
+\begin_layout Itemize
+The on-die decoupling capacitance is supplied by the subproject AVDDH.si.
+\end_layout
+
+\begin_layout Itemize
+The transient current is measured by the current probe named IDDH and the
+ differential transient voltage
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+It is differential because it is measured with respect to reference ground
+ at the IC die.
+\end_layout
+
+\end_inset
+
+ is measured by the differential voltage probe named AVDDH.
+\end_layout
+
+\begin_layout Itemize
+In this simulation, transfer parameters are generated which, when convolved
+ with the the transient current source, produce the differential voltage.
+ As mentioned previously, these are the Z-parameters and, when plotted in
+ the frequency domain, reflect the frequency dependent impedance of the
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ac{PDN}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The substrate s-parameters are generated from Ansys SiWave, a commercial
+ package from Ansys.
+\end_layout
+
+\begin_layout Itemize
+The connector utilizes a simple transmission line model consisting of distribute
+d 
+\begin_inset Formula $40\thinspace\mathrm{m}\Omega$
+\end_inset
+
+ series resistance, 
+\begin_inset Formula $50\thinspace\mu\Omega/\sqrt{\mathrm{Hz}}$
+\end_inset
+
+ skin-effect resistance, 
+\begin_inset Formula $4\thinspace\mathrm{nH}$
+\end_inset
+
+ inductance, and 
+\begin_inset Formula $200\thinspace\mathrm{fF}$
+\end_inset
+
+ capacitance.
+ This model was fit to an s-parameter extraction of the connector pin.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+This fit was performed in the 
+\emph on
+SignalIntegrity
+\emph default
+ tool by varying the transmission line parameters until a good fit was obtained
+ to the s-parameter model.
+\end_layout
+
+\end_inset
+
+ Many connector pins are utilized in parallel.
 \end_layout
 
 \begin_layout Standard
